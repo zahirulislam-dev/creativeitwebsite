@@ -11,12 +11,12 @@ import { CgSpinnerTwoAlt } from "react-icons/cg";
 
 const WebHostingPackage = () => {
   return (
-    <div className='bg-[#F5F7FA] py-[100px]'>
-      <div className='max-w-container mx-auto'>
-        <p className='font-pops font-bold text-[64px] text-[#1C1E53] text-center mb-[30px]'>WEB HOSTING PACKAGES</p>
-        <p className='font-pops font-medium text-[20px] text-overlay text-center mb-[50px]'>Choose your package from our package list</p>
-        <div className='flex flex-wrap'>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-[30px]'>
+    <div className='bg-[#F5F7FA] py-[50px] xl:py-[100px]'>
+      <div className='max-w-container mx-auto px-[10px] xl:px-0'>
+        <p className='font-pops font-bold text-[35px] xl:text-[64px] text-[#1C1E53] text-center mb-[30px]'>WEB HOSTING PACKAGES</p>
+        <p className='font-pops font-medium text-[18px] xl:text-[20px] text-overlay text-center mb-[50px]'>Choose your package from our package list</p>
+        <div className='xl:flex xl:flex-wrap'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-0 xl:mr-[30px]'>
             <h3 className='font-pops font-semibold text-[30px] text-[#1C1E53]'>Basic</h3>
               <p className='font-pops font-medium text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -54,10 +54,10 @@ const WebHostingPackage = () => {
               </div>
             </div>
             <Link to='/ContactDetails'>
-              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] px-[32px] rounded mt-[40px]'>Order Now</button>
+              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-[30px]'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-0 xl:mr-[30px] mt-[20px] xl:mt0'>
             <h3 className='font-pops font-semibold text-[30px] text-[#1C1E53]'>Advance</h3>
               <p className='font-pops font-medium text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -95,10 +95,10 @@ const WebHostingPackage = () => {
               </div>
             </div>
             <Link to='/ContactDetails'>
-              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] px-[32px] rounded mt-[40px]'>Order Now</button>
+              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-[30px]'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-0 xl:mr-[30px] mt-[20px] xl:mt0'>
             <h3 className='font-pops font-semibold text-[30px] text-[#1C1E53]'>Professional</h3>
               <p className='font-pops font-medium text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -136,10 +136,10 @@ const WebHostingPackage = () => {
               </div>
             </div>
             <Link to='/ContactDetails'>
-              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] px-[32px] rounded mt-[40px]'>Order Now</button>
+              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mr-[30px]'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded w-[352px] mt-[20px] xl:mt0'>
             <h3 className='font-pops font-semibold text-[30px] text-[#1C1E53]'>Professional Plus</h3>
               <p className='font-pops font-medium text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -177,7 +177,7 @@ const WebHostingPackage = () => {
               </div>
             </div>
             <Link to='/ContactDetails'>
-              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] px-[32px] rounded mt-[40px]'>Order Now</button>
+              <button className='font-pops font-semibold text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
         </div>

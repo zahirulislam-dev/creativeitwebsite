@@ -9,7 +9,7 @@ const Banner = () => {
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div className='flex-wrap md:flex md:items-center md:justify-between'>
           <div>
-            <h1 className='font-pops text-[25px] md:text-[45px] font-semibold md:font-bold text-white md:w-[800px] lg:w-[917px] mb-[50px]'>
+            <h1 className='font-pops text-[25px] md:text-[45px] font-semibold md:font-bold text-white md:w-[800px] lg:w-[917px] mb-[20px] xl:mb-[50px]'>
             READY & CUSTOMIZE BEST POS SOFTWARE IN BANGLADESH
             </h1>
             <p className='font-pops xl:text-[25px] text-[16px] font-semibold text-white leading-8 md:tracking-wide md:w-[700px] lg:w-[818px] mb-[10px]'>The Largest Retailsale And Wholesale POS Software & Solutions Provider In Bangladesh.</p>
@@ -36,7 +36,7 @@ const Banner = () => {
             </div>
             <div className='mt-[38px]'>
               <Link to='/exploreReadyProducts'>
-                <button className='font-pops text-[16px] md:text-[20px] font-semibold text-[#4364F7] border-none px-[12px] md:px-[15px] py-[14px] bg-white hover:text-[#FFB800] rounded'>Explore Our Ready POS Software</button>
+                <button className='font-pops text-[16px] md:text-[20px] font-semibold text-[#4364F7] border-none py-[14px] bg-white hover:text-[#FFB800] rounded w-full sm:w-[300px] md:w-[358px]'>Explore Our Ready POS Software</button>
               </Link>
             </div>
           </div>
