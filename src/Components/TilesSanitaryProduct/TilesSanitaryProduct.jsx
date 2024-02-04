@@ -19,8 +19,8 @@ const TilesSanitaryProduct = () => {
             <div>
               <div className='flex items-center mb-[25px]'>
                 <p className='font-pops font-bold text-[18px] text-white bg-slate-600 rounded p-[5px] mr-[15px]'>English & Bangla Online Responsive</p>
-                <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
-                <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p>
+                {/* <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
+                <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p> */}
               </div>
               <p className='font-pops font-medium text-[18px] text-overlay mb-[20px] w-[962px] leading-9'>You can use this software in tiles and sanitary shop dealer & retailer points. You can sale piece, square feet & box. Many more features include purchase, sale, stock, purchase, staff, user & all-important report. This software will go a long way in making your business easier and more dynamic. It has a user-friendly design, in the Bengali / English language</p>
             </div>

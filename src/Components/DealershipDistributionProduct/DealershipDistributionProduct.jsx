@@ -19,8 +19,8 @@ const DealershipDistributionProduct = () => {
             <div>
               <div className='flex items-center mb-[25px]'>
                 <p className='font-pops font-bold text-[18px] text-white bg-slate-600 rounded p-[5px] mr-[15px]'>English & Bangla Online Responsive</p>
-                <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
-                <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p>
+                {/* <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
+                <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p> */}
               </div>
               <p className='font-pops font-medium text-[18px] text-overlay mb-[20px] w-[962px] leading-9'>Our distribution and dealership software is a powerful online web application that streamlines the entire process of managing distribution and dealership operations. With our software, you can easily manage inventory, track sales, monitor orders, and handle other critical tasks all from one central location.Our software is designed to meet the specific needs of distribution and dealership businesses, offering a range of features that make managing your operations easier and more efficient. For example, our inventory management tools allow you to track and manage inventory levels in real-time, ensuring that you always have the right products on hand to meet customer demand. Our software also includes robust sales tracking and order management features that enable you to monitor sales performance, process orders, and generate detailed reports on sales trends and performance metrics. With our software, you can identify opportunities for growth, optimize your sales strategies, and make data-driven decisions that drive business success.</p>
             </div>

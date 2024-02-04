@@ -19,8 +19,8 @@ const HospitalProduct = () => {
             <div>
               <div className='flex items-center mb-[25px]'>
                 <p className='font-pops font-bold text-[18px] text-white bg-slate-600 rounded p-[5px] mr-[15px]'>English & Bangla Online Responsive</p>
-                <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
-                <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p>
+                {/* <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
+                <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p> */}
               </div>
               <p className='font-pops font-medium text-[18px] text-overlay mb-[20px] w-[962px] leading-9'>This software is designed to help medical professionals manage their daily tasks, streamline processes, and improve patient care. These software programs can include electronic medical records (EMRs), patient scheduling systems, billing and insurance management tools, and clinical decision support systems. They can also help improve patient outcomes by providing doctors with real-time access to patient data and medical histories, as well as facilitating communication and collaboration between healthcare professionals. Overall, hospital, diagnostic, and clinic software are essential tools for healthcare organizations looking to provide high-quality care and streamline their operations.</p>
             </div>

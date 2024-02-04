@@ -83,7 +83,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/CposDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -120,7 +120,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/BsPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -157,7 +157,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/BsMultibranchPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -194,7 +194,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/PharmaPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -231,7 +231,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/TilesanitaryPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -268,7 +268,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/ElectroPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -305,7 +305,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/DealerDistributionPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -342,7 +342,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/RestaurantPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -379,7 +379,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/LpgPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -416,7 +416,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/AgroPoultryPosDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -453,7 +453,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/TrainingCoachingSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -490,7 +490,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/EducationInstituteSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -527,7 +527,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/FactorySoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -564,7 +564,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/BrickFieldSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -594,14 +594,14 @@ const ReadyProductsList = () => {
                                     <img src={Accounting} alt="" className='w-[100px] h-[100px] rounded-full mb-[10px]' />
                                 </div>
                                 <div>
-                                <h5 className='font-pops font-semibold text-[18px] xl:text-[20px] text-[#4CAF4F] mb-[20px]'>Accounting Management Online Software</h5>
+                                    <h5 className='font-pops font-semibold text-[18px] xl:text-[20px] text-[#4CAF4F] mb-[20px]'>Accounting Management Online Software</h5>
                                     <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[20px] xl:mb-[50px] xl:w-[1032px] leading-9'>You can use this version of the software at any business organisations for accounting. Ledger, Cash Book, Statement, Balance Sheet etc. Reliable customer service will be ensured at all times. This software is available in both Bengali and English languages. The software will be a Highly user-friendly interface with slow internet speed. The entire software is our own written code and designed using the suggestions from the respective sectors to develop it. the software will be helpful for your organization.</p>
                                     <p className='font-pops font-bold text-[16px] xl:text-[18px] text-red-500 leading-5'>Language: English & Bangla</p>
                                     <p className='font-pops font-bold text-[16px] xl:text-[18px] text-red-500 mt-[20px] mb-[20px] leading-5'>Network Mode: Online <span className='ml-[8px]'>Responsive</span></p>
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/AccountingSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -631,26 +631,26 @@ const ReadyProductsList = () => {
                                     <img src={Office} alt="" className='w-[100px] h-[100px] rounded-full mb-[10px]' />
                                 </div>
                                 <div>
-                                <h5 className='font-pops font-semibold text-[18px] xl:text-[20px] text-[#4CAF4F] mb-[20px]'>Office Management Online Software</h5>
+                                    <h5 className='font-pops font-semibold text-[18px] xl:text-[20px] text-[#4CAF4F] mb-[20px]'>Office Management Online Software</h5>
                                     <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[20px] xl:mb-[50px] xl:w-[1032px] leading-9'>You can use this version of the software at any office. Reliable customer service will be ensured at all times. This software is available in both Bengali and English languages. The software will be a Highly user-friendly interface with slow internet speed. The entire software is our own written code and designed using the suggestions from the respective sectors to develop it. The software will be helpful for your organization.</p>
                                     <p className='font-pops font-bold text-[16px] xl:text-[18px] text-red-500 leading-5'>Language: English & Bangla</p>
                                     <p className='font-pops font-bold text-[16px] xl:text-[18px] text-red-500 mt-[20px] mb-[20px] leading-5'>Network Mode: Online <span className='ml-[8px]'>Responsive</span></p>
                                 </div>
                             </div>
-                            <div className='flex-end'>
+                            <div className='xl:flex-end'>
                                 <Link to='/OfficeManagementSoftDetails'>
-                                    <div className='flex items-center bg-[#5F35F5] py-[14px] px-[20px] hover:bg-green-500 transition duration-300 ease-in-out rounded text-center'>
-                                        <FaDownload className='text-white text-[25px] mr-[8px]' />
-                                        <button className='font-pops font-bold text-[20px] text-white'>Details</button>
+                                    <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
+                                        <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
+                                        <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
                                     </div>
                                 </Link>
-                                <div className='flex items-center bg-[#000020] py-[14px] px-[20px] hover:bg-red-500 transition duration-300 ease-in-out rounded mt-[20px]'>
+                                <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded mt-[20px]'>
                                     <HiPhoto className='text-white text-[25px] mr-[8px]' />
-                                    <button className='font-pops font-bold text-[20px] text-white'>ScreenShots</button>
+                                    <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>ScreenShots</button>
                                 </div>
-                                <div className='flex items-center bg-[#4CAF4F] py-[14px] px-[20px] hover:bg-[#5656f6] transition duration-300 ease-in-out rounded mt-[20px]'>
+                                <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded mt-[20px]'>
                                     <FaVideo className='text-white text-[25px] mr-[8px]' />
-                                    <button className='font-pops font-bold text-[20px] text-white'>Videos</button>
+                                    <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Videos</button>
                                 </div>
                             </div>
                         </div>
@@ -675,7 +675,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/HospitalSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -712,7 +712,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/DiagnosticSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -749,7 +749,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/StockInventorySoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
@@ -786,7 +786,7 @@ const ReadyProductsList = () => {
                                 </div>
                             </div>
                             <div className='xl:flex-end'>
-                                <Link to='/supershopDetails'>
+                                <Link to='/IspBillingSoftDetails'>
                                     <div className='flex justify-center items-center bg-[#4364F7] py-[14px] px-[20px] w-full xl:w-[250px] hover:bg-green-600 transition duration-300 ease-in-out rounded'>
                                         <FaDownload className='text-white text-[18px] md:text-[20px] xl:text-[25px] mr-[8px]' />
                                         <button className='font-pops font-bold text-[18px] md:text-[20px] text-white'>Details</button>
