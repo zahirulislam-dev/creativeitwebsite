@@ -7,7 +7,7 @@ const PremiumHosting = () => {
   return (
     <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
-        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53]'>Premium Web Hosting</p>
+        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53]'>PREMIUM WEB HOSTING</p>
         <div className='xl:flex xl:justify-between xl:items-center'>
           <div className='border-b-2'>
             <div className='mt-[30px] xl:mt-0'>
