@@ -19,7 +19,14 @@ export default {
         'overlay': 'rgba(0,0,0,0.60)',
         'shadow': '4px 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);'
       },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
+      },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 }

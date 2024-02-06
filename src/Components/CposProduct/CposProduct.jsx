@@ -8,17 +8,17 @@ const CposProduct = () => {
     <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div className='xl:flex xl:justify-between xl:items-center'>
-          <h4 className='font-pops font-bold text-[20px] xl:text-[28px] text-[#4CAF4F] mb-[20px]'>cPOS Shop/ Showroom Accounting Management Online POS Software</h4>
-          <div className='flex items-center bg-[#5F35F5] py-[14px] px-[20px] hover:bg-green-500 transition duration-300 ease-in-out rounded'>
-            <FaDownload className='text-white text-[25px] mr-[8px]' />
+          <h4 className='font-pops font-bold text-[20px] xl:text-[28px] text-[#4CAF4F] mb-[20px]'>cPOS Shop/ Showroom Accounting Management POS Software</h4>
+          <div className='flex items-center bg-[#5F35F5] py-[14px] px-[20px] mb-[20px] xl:mb-0 hover:bg-green-500 transition duration-300 ease-in-out rounded'>
+            <FaDownload className='text-white text-[20px] xl:text-[25px] mr-[5px] xl:mr-[8px]' />
             <button className='font-pops font-bold text-[18px] xl:text-[20px] text-white'>Download PDF Document</button>
           </div>
         </div>
         <div className='xl:flex xl:justify-between'>
           <div className='mr-0 xl:mr-[50px]'>
             <div>
-              <div className='flex items-center mb-[25px] mt-[20px] xl:mt-0'>
-                <p className='font-pops font-bold text-[16px] xl:text-[18px] text-white bg-slate-600 rounded p-[5px] mr-[15px]'>English & Bangla Online Responsive</p>
+              <div className='mb-[25px]'>
+                <p className='font-pops font-bold text-[16px] xl:text-[18px] text-white bg-slate-600 rounded p-[15px]'>English & Bangla Online Responsive</p>
                 {/* <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
                 <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p> */}
               </div>
@@ -26,7 +26,7 @@ const CposProduct = () => {
             </div>
             <div className='xl:flex xl:justify-between border-t-2'>
               <div className='leading-10'>
-                <h6 className='font-pops font-bold text-[18px] xl:text-[20px] text-overlay mt-[20px] mb-[10px] xl:mb-[20px]'>Yearly Package</h6>
+                <h6 className='font-pops font-bold text-[18px] xl:text-[20px] text-overlay mt-[20px] mb-[10px] xl:mb-[10px]'>Yearly Package</h6>
                 <div className='flex items-center'>
                   <PiDotFill className='text-[20px] xl:text-[25px] mr-[5px] xl:mr-[8px]'/>
                   <p className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay '>Setup Charge OneTime BDT. 35000/-</p>
@@ -41,7 +41,7 @@ const CposProduct = () => {
                 </div>
               </div>
               <div className='leading-10'>
-                <h6 className='font-pops font-bold text-[18px] xl:text-[20px] text-overlay mt-[20px] mb-[10px] xl:mb-[20px]'>Monthly Package</h6>
+                <h6 className='font-pops font-bold text-[18px] xl:text-[20px] text-overlay mt-[20px] mb-[10px] xl:mb-[10px]'>Monthly Package</h6>
                 <div className='flex items-center'>
                   <PiDotFill className='text-[20px] xl:text-[25px] mr-[5px] xl:mr-[8px]'/>
                   <p className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>Setup Charge OneTime BDT. 15000/-</p>
@@ -58,7 +58,7 @@ const CposProduct = () => {
             </div>
           </div>
           <div className=''>
-            <img src={cPos} alt="" className='mt-[20px] xl:mt-[50px]' />
+            <img src={cPos} alt="" className='mt-[30px] xl:mt-[50px]' />
           </div>
         </div>
       </div>

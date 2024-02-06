@@ -1,7 +1,7 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
 import SuperShop from '../../assets/images/SuperShop.png'
-import shop from '../../assets/images/shop.jpg'
+import grocery from '../../assets/images/grocery.jpeg'
 import FashionStore from '../../assets/images/FashionStore.png'
 import MultiPos from '../../assets/images/MultiPos.jpg'
 import PharmacyIcon from '../../assets/images/PharmacyIcon.png'
@@ -32,8 +32,8 @@ const ProductsList = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-[50px]'>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={SuperShop} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] rounded-full mb-[10px] bg-transparent' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>SuperShop Management Online POS Software (V-2.0.1)</h5>
+              <img src={SuperShop} alt="" className='w-[100px] h-[100px] mx-auto rounded-full mb-[10px] bg-transparent' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>SuperShop Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-08-02</p>
             </div>
@@ -46,8 +46,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={shop} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] rounded-full mb-[10px] bg-transparent' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>cPOS Shop/ Showroom Accounting Management Online POS Software (V-2.0.1)</h5>
+              <img src={grocery} alt="" className='w-[100px] h-[100px] mx-auto rounded-full mb-[10px] bg-transparent' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>cPOS Shop/ Showroom Accounting Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-08-02</p>
             </div>
@@ -60,8 +60,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={FashionStore} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Fashion House, Footwear Store, Brand Shop Management Online POS Software (V-1.0)</h5>
+              <img src={FashionStore} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Fashion House, Footwear Store, Brand Shop Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-03-01</p>
             </div>
@@ -74,8 +74,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={MultiPos} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Fashion House, Footwear Store, Brand Shop Multiple Branch Management erp Online Software (V-1.0)</h5>
+              <img src={MultiPos} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Fashion House, Footwear Store, Brand Shop Multiple Branch Management erp Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2023-03-01</p>
             </div>
@@ -88,8 +88,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={PharmacyIcon} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Pharmacy Shop Management Online POS Software (V-1.01.01)</h5>
+              <img src={PharmacyIcon} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Pharmacy Shop Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-04-17</p>
             </div>
@@ -102,8 +102,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={TilesShop} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Tiles & Sanitary Shop Management Online POS Software (V-1.01.01)</h5>
+              <img src={TilesShop} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Tiles & Sanitary Shop Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-04-17</p>
             </div>
@@ -116,8 +116,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Electro} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Electronics & Electric Shop Management Online POS Software (V-1.01.01)</h5>
+              <img src={Electro} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Electronics & Electric Shop Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-08-02</p>
             </div>
@@ -130,8 +130,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={DealershipR} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Dealership & Distribution Management Online POS Software (V-1.01.01)</h5>
+              <img src={DealershipR} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Dealership & Distribution Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2023-01-28</p>
             </div>
@@ -144,8 +144,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Resturent} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Restaurant Billing Management Online POS Software (V-2.0.1)</h5>
+              <img src={Resturent} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Restaurant Billing Management Online POS Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-04-17</p>
             </div>
@@ -158,8 +158,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={LPG} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>LPG Business Dealership, Distribution Accounting Management Online Software (V-1.0.1)</h5>
+              <img src={LPG} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>LPG Business Dealership, Distribution Accounting Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2023-10-05</p>
             </div>
@@ -172,8 +172,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Poultry} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Agro & Poultry Farm Business Accounting Management Online Software (V-1.0.1)</h5>
+              <img src={Poultry} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Agro & Poultry Farm Business Accounting Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2023-10-01</p>
             </div>
@@ -186,8 +186,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Training} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Training & Coaching Center Management Online Software With Website (V-2.0.1)</h5>
+              <img src={Training} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Training & Coaching Center Management Online Software With Website</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-04-01</p>
             </div>
@@ -200,8 +200,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Education} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Education Institute Management Online Software (V-2.0.1)</h5>
+              <img src={Education} alt="" className='w-[100px] h-[100px] mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Education Institute Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-05-21</p>
             </div>
@@ -214,8 +214,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Factory} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Factory, Production Accounting Management Erp Online Software (V-1.01.01)</h5>
+              <img src={Factory} alt="" className='w-[100px] h-[100px] mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Factory, Production Accounting Management Erp Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-05-21</p>
             </div>
@@ -228,8 +228,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={BrickField} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Brick Field Manufacturing Accounting Management Online Software (V-1.01.01)</h5>
+              <img src={BrickField} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Brick Field Manufacturing Accounting Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-05-21</p>
             </div>
@@ -242,8 +242,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Accounting} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Accounting Management Online Software (V-1.01.01)</h5>
+              <img src={Accounting} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Accounting Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-05-21</p>
             </div>
@@ -256,8 +256,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Office} alt="" className='w-[100px] h-[100px] rounded-full ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Office Management System Online Software (V-1.0.01)</h5>
+              <img src={Office} alt="" className='w-[100px] h-[100px] rounded-full mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Office Management System Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2021-12-01</p>
             </div>
@@ -270,8 +270,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={HospitalIcon} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Hospital & Clinic Management Online Software (V-1.01.01)</h5>
+              <img src={HospitalIcon} alt="" className='w-[100px] h-[100px] mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Hospital & Clinic Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-08-13</p>
             </div>
@@ -284,8 +284,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Diagonstick} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Diagnostic Center Management Online Software (V-1.01.01)</h5>
+              <img src={Diagonstick} alt="" className='w-[100px] h-[100px] mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Diagnostic Center Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-08-13</p>
             </div>
@@ -298,8 +298,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Stock} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Stock Inventory Management Online Software (V-1.01.01)</h5>
+              <img src={Stock} alt="" className='w-[100px] h-[100px] mx-auto mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Stock Inventory Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-05-21</p>
             </div>
@@ -312,8 +312,8 @@ const ProductsList = () => {
           </div>
           <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
             <div className=''>
-              <img src={Isp} alt="" className='w-[100px] h-[100px] ml-[105px] md:ml-[105px] lg:ml-[78px] xl:ml-[109px] rounded-full mb-[10px]' />
-              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Internet and Cable Operator Billing Management Online Software (V-3.01.01)</h5>
+              <img src={Isp} alt="" className='w-[100px] h-[100px] mx-auto rounded-full mb-[10px]' />
+              <h5 className='font-pops font-semibold text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Internet and Cable Operator Billing Management Online Software</h5>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[10px] leading-9'>Language: English & Bangla</p>
               <p className='font-pops font-medium text-[18px] text-overlay text-center mb-[15px] leading-9'>Update: 2022-05-21</p>
             </div>

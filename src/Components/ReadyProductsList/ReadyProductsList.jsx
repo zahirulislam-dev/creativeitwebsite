@@ -19,7 +19,7 @@ import Stock from "../../assets/images/Stock.png"
 import Isp from "../../assets/images/Isp.png"
 import Electro from "../../assets/images/Electro.avif"
 import PharmacyIcon from "../../assets/images/PharmacyIcon.png"
-import shop from "../../assets/images/shop.jpg"
+import grocery from "../../assets/images/grocery.jpeg"
 import { FaDownload } from "react-icons/fa";
 import { HiPhoto } from "react-icons/hi2";
 import { FaVideo } from "react-icons/fa";
@@ -73,7 +73,7 @@ const ReadyProductsList = () => {
                         <div className='xl:flex xl:justify-between'>
                             <div className='xl:flex'>
                                 <div className='xl:mr-[30px]'>
-                                    <img src={shop} alt="" className='w-[100px] h-[100px] rounded-full mb-[10px]' />
+                                    <img src={grocery} alt="" className='w-[100px] h-[100px] rounded-full mb-[10px]' />
                                 </div>
                                 <div>
                                     <h5 className='font-pops font-semibold text-[18px] xl:text-[20px] text-[#4CAF4F] mb-[20px]'>cPOS Shop/Showroom Accounting Management Online POS Software</h5>

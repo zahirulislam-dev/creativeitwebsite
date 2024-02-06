@@ -8,7 +8,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div className='bg-[#1C1E53] py-[12px] md:py-[16px] fixed w-full'>
+    <div className='bg-[#1C1E53] py-[12px] md:py-[16px] fixed w-full z-[9999]'>
       <div className='max-w-container mx-auto text-white px-[10px] xl:px-0'>
         <div className='md:flex md:items-center'>
           <div className='md:w-3/4 md:gap-x-[25px] lg:gap-x-[54px]'>
