@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 
 const MobileAppDevelopment = () => {
   return (
-    <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
+    <div className='bg-white pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
-        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53] mb-[30px]'>Mobile App Development Details</p>
+        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53] mb-[20px]'>Mobile App Development Details</p>
         <div className='xl:flex xl:justify-between xl:items-center'>
           <div className='border-b-2'>
             <div className=''>
-              <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[30px] xl:w-[990px] leading-9'>We are including web application development services since 2013. The web application is now a day’s becoming more popular and its make your work so smarter evens no matter where you are. It can make your business or office works easier as you want; we ensure you provide better qualities’ and reliability at web application development. We use world popular web application developing formworks Which is reliable for security and strong programming structure. Always we give the priority to our clients that’s why we using multi-languages like English, Bangla or any other languages what you need for the frontend.</p>
+              <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[20px] xl:w-[990px] leading-9'>We are including web application development services since 2013. The web application is now a day’s becoming more popular and its make your work so smarter evens no matter where you are. It can make your business or office works easier as you want; we ensure you provide better qualities’ and reliability at web application development. We use world popular web application developing formworks Which is reliable for security and strong programming structure. Always we give the priority to our clients that’s why we using multi-languages like English, Bangla or any other languages what you need for the frontend.</p>
             </div>
-            <div className='xl:flex xl:items-center mb-[30px]'>
+            <div className='xl:flex xl:items-center mb-[20px]'>
               <div>
                 <div className='flex items-center'>
                   <MdCheckCircle />

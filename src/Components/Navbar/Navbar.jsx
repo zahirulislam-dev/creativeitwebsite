@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../../assets/images/Logo.svg'
+import LogoFour from '../../assets/images/LogoFour.png'
 import { FaBars } from 'react-icons/fa'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { RxCross2 } from 'react-icons/rx'
@@ -14,11 +14,11 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-white py-[20px] fixed md:top-[42px] top-[84px] w-full shadow z-[9999]'>
+        <div className='bg-white py-[15px] fixed top-[58px] sm:top-[41px] w-full shadow z-[9999]'>
             <div className='max-w-container mx-auto px-[10px] xl:px-0'>
                 <div className='flex justify-between items-center'>
                     <div className='w-[20%]'>
-                        <img src={Logo} alt="" />
+                        <img src={LogoFour} alt="" />
                     </div>
                     <div className='flex justify-end'>
                         <div onClick={handleClick} className='block md:hidden'>
@@ -27,7 +27,7 @@ const Navbar = () => {
                             }
                         </div>
                         <div className='w-[80%]'>
-                            <div className={`md:flex justify-end items-center xl:gap-x-[25px] md:gap-x-[8px] md:static w-full absolute top-[-200px] left-0 px-4 md:px-0 z-[999] ${show == true ? 'top-[80px] bg-white w-full py-[20px] md:bg-primary md:py-0' : 'top-[-485px] bg-white py-[20px] md:bg-white md:py-0'}`}>
+                            <div className={`md:flex justify-end items-center xl:gap-x-[25px] md:gap-x-[8px] md:static w-full absolute top-[-200px] left-0 px-4 md:px-0 z-[999] ${show == true ? 'top-[70px] bg-white w-full py-[20px] md:bg-primary md:py-0' : 'top-[-485px] bg-white py-[20px] md:bg-white md:py-0'}`}>
                                 <Link to='/'>
                                     <div className='flex items-center mb-[10px] md:mb-0 cursor-pointer'>
                                         <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Home</p>

@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 
 const WebDesignDevelopment = () => {
   return (
-    <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
+    <div className='bg-white pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
-        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53] mb-[30px]'>Web Design & Development Details</p>
+        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53] mb-[20px]'>Web Design & Development Details</p>
         <div className='xl:flex xl:justify-between xl:items-center'>
           <div className='border-b-2'>
             <div className=''>
-              <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[30px] xl:w-[990px] leading-9'>We developed any kinks of the website along with an interactive, strong & a user-friendly platform that is based on so much easy to update easy to manage content. We ensure High-level security, user rights protection, and are simultaneously updateable together one or more users. You can make any changes to your website anytime and anywhere. Choose your package from our package list & we all so developed customized web site as your demands.</p>
+              <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[20px] xl:w-[990px] leading-9'>We developed any kinks of the website along with an interactive, strong & a user-friendly platform that is based on so much easy to update easy to manage content. We ensure High-level security, user rights protection, and are simultaneously updateable together one or more users. You can make any changes to your website anytime and anywhere. Choose your package from our package list & we all so developed customized web site as your demands.</p>
             </div>
-            <div className='xl:flex xl:items-center mb-[30px]'>
+            <div className='xl:flex xl:items-center mb-[20px]'>
               <div>
                 <div className='flex items-center'>
                   <MdCheckCircle />

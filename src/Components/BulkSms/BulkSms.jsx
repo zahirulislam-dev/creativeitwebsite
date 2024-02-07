@@ -3,7 +3,7 @@ import bulkSms from '../../assets/images/bulkSms.png'
 
 const BulkSms = () => {
   return (
-    <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
+    <div className='bg-white pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div>
           <p className='font-pops font-bold text-[35px] xl:text-[64px] text-third'>Service</p>

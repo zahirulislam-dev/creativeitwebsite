@@ -27,7 +27,7 @@ import { Link } from 'react-router-dom';
 
 const ReadyProductsList = () => {
     return (
-        <div className='bg-[#F5F7FA] pt-[210px] pb-[30px] md:pt-[170px] xl:pt-[235px] md:pb-[50px]'>
+        <div className='bg-[#F5F7FA] pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
             <div className='max-w-container mx-auto px-[10px] xl:px-0'>
                 <h5 className='font-pops font-bold text-[20px] md:text-[40px] xl:text-[64px] [#1C1E53]] mb-[20px] text-center'>Readymade Products</h5>
                 <h6 className='font-pops font-semibold text-[18px] text-center md:text-[25px] xl:text-[40px] text-[#1C1E53]'>List Of Our Readymade Softwares</h6>

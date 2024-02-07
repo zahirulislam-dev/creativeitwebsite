@@ -3,7 +3,7 @@ import cit from "../../assets/images/cit.jpg"
 
 const About = () => {
     return (
-        <div className='bg-[#F5F7FA] pt-[235px] pb-[50px] xl:pb-[100px]'>
+        <div className='bg-[#F5F7FA] pt-[160px] sm:pt-[150px] md:pt-[150px] xl:pt-[220px] pb-[50px] xl:pb-[100px]'>
             <div className='max-w-container mx-auto px-[10px] xl:px-0'>
                 <p className='font-pops font-semibold text-[18px] text-overlay mb-[8px]'>TRUSTED SOFTWARE DEVELOPMENT COMPANY</p>
                 <p className='font-pops font-bold text-[35px] xl:text-[50px] text-[#4CAF4F]'>ABOUT</p>

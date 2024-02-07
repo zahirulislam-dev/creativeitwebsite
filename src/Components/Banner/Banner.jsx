@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
-    <div className='bg-[#4364F7] bg-no-repeat bg-center bg-cover md:pt-[220px] pt-[223px] md:pb-[60px] pb-[40px]'>
+    <div className='bg-[#4364F7] bg-no-repeat bg-center bg-cover pt-[162px] sm:pt-[150px] md:pt-[140px] lg:pt-[160px] xl:pt-[200px] md:pb-[60px] pb-[40px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div className='flex-wrap md:flex md:items-center md:justify-between'>
           <div>
             <h1 className='font-pops text-[25px] md:text-[45px] font-semibold md:font-bold text-white md:w-[800px] lg:w-[917px] mb-[20px] xl:mb-[50px]'>
             READY & CUSTOMIZE BEST POS SOFTWARE IN BANGLADESH
             </h1>
-            <p className='font-pops xl:text-[25px] text-[16px] font-semibold text-white leading-8 md:tracking-wide md:w-[700px] lg:w-[818px] mb-[10px]'>The Largest Retailsale And Wholesale POS Software & Solutions Provider In Bangladesh.</p>
+            <p className='font-pops xl:text-[25px] text-[16px] font-semibold text-white leading-8 md:tracking-wide md:w-[700px] lg:w-[818px] mb-[30px]'>The Largest Retailsale And Wholesale POS Software & Solutions Provider In Bangladesh.</p>
             <p className='font-pops md:text-[18px] text-[16px] font-medium text-white leading-8 md:tracking-wide md:w-[700px] lg:w-[818px] mb-8'>We work to make your life easier and more dynamic through loading less technology. We are providing Accounting, Inventory & Billing Management software for small to large business organizations. Currently, Also we are providing the following services...</p>
             <div className='flex items-center'>
               <PiDotFill className='text-white text-[30px]' />

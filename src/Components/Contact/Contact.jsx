@@ -27,7 +27,7 @@ const Contact = () => {
     // };
 
     return (
-        <div className='bg-[#F5F7FA] pt-[235px] pb-[50px] xl:pb-[100px]'>
+        <div className='bg-[#F5F7FA] pt-[170px] xl:pt-[220px] pb-[50px] xl:pb-[100px]'>
             <div className='max-w-container mx-auto px-[10px] xl:px-0'>
                 <p className='font-pops font-bold text-[25px] xl:text-[45px] text-[#1C1E53] text-center mb-[8px]'>QUICK CONTACT NOW</p>
                 <p className='font-pops font-medium text-[18px] xl:text-[20px] text-overlay text-center mb-[30px] xl:mb-[50px]'>We serve all over Bangladesh and in different countries of the Middle East..</p>
@@ -62,7 +62,12 @@ const Contact = () => {
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Contact Information</p>
                         <div className='flex items-center mb-[20px]'>
                             <FaMobileAlt className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Sales & Support: +88 01999 878 862</p>
+                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Sales: +88 01999 878 862</p>
+                            <IoLogoWhatsapp className='text-[16px] xl:text-[25px] text-secondary' />
+                        </div>
+                        <div className='flex items-center mb-[20px]'>
+                            <FaMobileAlt className='text-[16px] xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Support: +88 01999 878 862</p>
                             <IoLogoWhatsapp className='text-[16px] xl:text-[25px] text-secondary' />
                         </div>
                         <div className='flex items-center mb-[20px]'>

@@ -11,7 +11,7 @@ import { CgSpinnerTwoAlt } from "react-icons/cg";
 
 const WebsitePackage = () => {
   return (
-    <div className='bg-[#F5F7FA] pt-[235px] pb-[50px] xl:pb-[100px]'>
+    <div className='bg-[#F5F7FA] pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <p className='font-pops font-bold text-[30px] xl:text-[64px] text-[#1C1E53] text-center mb-[15px] xl:mb-[30px]'>WEBSITE PACKAGES</p>
         <p className='font-pops font-medium text-[18px] xl:text-[20px] text-overlay text-center mb-[30px] xl:mb-[50px]'>Choose your package from our package list & we all so developed customized website as your demands.</p>
