@@ -17,20 +17,20 @@ const TechnologyLogo = () => {
     <div className='bg-blue-100'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div className='items-center py-[20px] lg:py-[50px]'>
-          <h6 className='font-pops text-[25px] lg:text-[35px] font-semibold text-[#000020] xl:text-center mb-[30px]'>Technology we use</h6>
-          <div className='flex items-center justify-between'>
-            <FaHtml5 className='md:text-[50px] lg:text-[70px]' />
-            <SiTailwindcss className='lg:text-[70px]' />
+          <h6 className='font-pops text-[25px] lg:text-[35px] font-semibold text-[#000020] text-center mb-[30px]'>Technology we use</h6>
+          <div>
+            <div className='flex justify-between items-center'><FaHtml5 className='md:text-[50px] lg:text-[70px]' />
+            <SiTailwindcss className='md:text-[50px] lg:text-[70px]' />
             <FaCss3Alt className='md:text-[50px] lg:text-[70px]' />
             <RiJavascriptFill className='md:text-[50px] lg:text-[70px]' />
             <SiPhp className='md:text-[50px] lg:text-[70px]' />
-            <FaReact className='md:text-[50px] lg:text-[70px]' />
-            <SiExpress className='md:text-[50px] lg:text-[70px]'/>
+            <FaReact className='md:text-[50px] lg:text-[70px]' /></div>
+            <div className='flex justify-between items-center mt-[30px]'><SiExpress className='md:text-[50px] lg:text-[70px]'/>
             <FaNode className='md:text-[50px] lg:text-[70px]' />
             <BsAndroid2 className='md:text-[50px] lg:text-[70px]' />
             <DiMongodb className='md:text-[50px] lg:text-[70px]' />
             <TbBrandMysql className='md:text-[50px] lg:text-[70px]' />
-            <FaSquareGithub className='md:text-[50px] lg:text-[70px]' />
+            <FaSquareGithub className='md:text-[50px] lg:text-[70px]' /></div>
           </div>
         </div>
       </div>

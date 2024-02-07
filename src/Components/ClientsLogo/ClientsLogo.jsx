@@ -10,8 +10,8 @@ const ClientsLogo = () => {
     return (
         <div className='bg-[#000020] py-[50px] xl:py-[100px]'>
             <div className='max-w-container mx-auto px-[10px] xl:px-0'>
-                <h4 className='font-pops font-bold text-[35px] xl:text-[64px] text-[#fff] mb-[50px] xl:text-center'>Our Clients Logo</h4>
-                <div className='md:flex md:flex-wrap xl:justify-between'>
+                <h4 className='font-pops font-bold text-[35px] xl:text-[64px] text-[#fff] mb-[30px] text-center'>Our Clients Logo</h4>
+                <div className='flex flex-wrap xl:justify-between items-center'>
                     <img src={ClientLogo1} alt="" />
                     <img src={ClientLogo2} alt="" />
                     <img src={ClientLogo3} alt="" />
