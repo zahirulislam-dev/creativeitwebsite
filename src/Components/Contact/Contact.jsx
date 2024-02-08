@@ -32,7 +32,7 @@ const Contact = () => {
                 <p className='font-pops font-bold text-[25px] xl:text-[45px] text-[#1C1E53] text-center mb-[8px]'>QUICK CONTACT NOW</p>
                 <p className='font-pops font-medium text-[18px] xl:text-[20px] text-overlay text-center mb-[30px] xl:mb-[50px]'>We serve all over Bangladesh and in different countries of the Middle East..</p>
                 <div className='xl:flex xl:justify-between'>
-                <div className='xl:w-[60%] bg-white py-[30px] px-[5px] xl:px-[30px]'>
+                    <div className='xl:w-[60%] bg-white py-[30px] px-[5px] xl:px-[30px]'>
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Drop Us a Message</p>
 
                         {/* EMAILJS CODE */}
@@ -61,48 +61,52 @@ const Contact = () => {
                     <div className='xl:w-[40%] bg-white py-[30px] px-[5px] xl:px-[30px] ml-0 xl:ml-[50px] mt-[20px] xl:mt-0'>
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Contact Information</p>
                         <div className='flex items-center mb-[20px]'>
-                            <FaMobileAlt className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Sales: +88 01999 878 862</p>
-                            <IoLogoWhatsapp className='text-[16px] xl:text-[25px] text-secondary' />
+                            <FaMobileAlt className='xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[14px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Sales: +88 01999 878 862</p>
+                            <IoLogoWhatsapp className='xl:text-[25px] text-secondary' />
                         </div>
                         <div className='flex items-center mb-[20px]'>
-                            <FaMobileAlt className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Support: +88 01999 878 862</p>
-                            <IoLogoWhatsapp className='text-[16px] xl:text-[25px] text-secondary' />
+                            <FaMobileAlt className='xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[14px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] mr-[3px] xl:mr-[10px]'>Support: +88 01999 878 862</p>
+                            <IoLogoWhatsapp className='xl:text-[25px] text-secondary' />
                         </div>
                         <div className='flex items-center mb-[20px]'>
-                            <MdOutlineMarkEmailRead className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px]'>Email: info@creativeit.com</p>
+                            <MdOutlineMarkEmailRead className='xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[14px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px]'>Email: info@creativeit.com</p>
                         </div>
                         <div className='flex items-center mb-[20px]'>
-                            <MdOutlineMarkEmailRead className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px]'>Email: 1stcreativeitbdt@gmail.com</p>
+                            <MdOutlineMarkEmailRead className='xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[14px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px]'>Email: 1stcreativeitbdt@gmail.com</p>
                         </div>
                         <div className='flex items-center mb-[20px]'>
-                            <FaGlobe className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px]'>Website: creativeit.com.bd</p>
+                            <FaGlobe className='xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[14px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px]'>Website: creativeit.com.bd</p>
                         </div>
                         <div className='flex align-baseline'>
-                            <FaSearchLocation className='text-[16px] xl:text-[20px] text-secondary' />
-                            <p className='font-pops font-medium text-[16px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] w-[313px] xl:w-[485px]'>Contact Address: Kassaf Shopping Center (5th Floor), Chittagong Road, Narayanganj, Dhaka, Bangladesh.</p>
+                            <FaSearchLocation className='xl:text-[20px] text-secondary' />
+                            <p className='font-pops font-medium text-[14px] xl:text-[20px] text-overlay ml-[3px] xl:ml-[10px] w-[313px] xl:w-[485px]'>Contact Address: Kassaf Shopping Center (5th Floor), Chittagong Road, Narayanganj, Dhaka, Bangladesh.</p>
                         </div>
                         <div className='flex items-center mt-[30px] xl:mt-[65px]'>
-                            <p className='font-pops font-medium text-[18px] xl:text-[25px] text-overlay ml-[3px] xl:ml-[10px] mr-[10px] xl:mr-[30px]'>Follow Us on</p>
-                            <div className='bg-secondary rounded-full p-[10px] mr-[13px] xl:mr-[30px]'>
-                                {/* FACEBOOK ICON */}
-                                <a href="https://www.facebook.com/creativeitbdpos"><FaFacebookF className='text-[16px] xl:text-[20px] text-white' /></a>
+                            <div className='mr-[5px] xl:mr-[30px]'>
+                                <p className='font-pops font-medium text-[16px] xl:text-[25px] text-overlay'>Follow Us on</p>
                             </div>
-                            <div className='bg-secondary rounded-full p-[10px] mr-[13px] xl:mr-[30px]'>
-                                {/* FACEBOOK ICON */}
-                                <a href=""><BsTwitter className='text-[16px] xl:text-[20px] text-white' /></a>
-                            </div>
-                            <div className='bg-secondary rounded-full p-[10px] mr-[13px] xl:mr-[30px]'>
-                                {/* FACEBOOK ICON */}
-                                <a href=""><FaLinkedinIn className='text-[16px] xl:text-[20px] text-white' /></a>
-                            </div>
-                            <div className='bg-secondary rounded-full p-[10px] mr-[13px] xl:mr-[30px]'>
-                                {/* YOUTUBE ICON */}
-                                <a href="https://www.youtube.com/@creativeitbdpos"><IoLogoYoutube className='text-[16px] xl:text-[20px] text-white' /></a>
+                            <div className='flex justify-between items-center gap-x-[10px] sm:gap-x-[15px] md:gap-x-[20px] xl:gap-x-[40px]'>
+                                <div className='bg-secondary rounded-full p-[8px]'>
+                                    {/* FACEBOOK ICON */}
+                                    <a href="https://www.facebook.com/creativeitbdpos"><FaFacebookF className='text-[16px] xl:text-[20px] text-white' /></a>
+                                </div>
+                                <div className='bg-secondary rounded-full p-[8px]'>
+                                    {/* FACEBOOK ICON */}
+                                    <a href=""><BsTwitter className='text-[16px] xl:text-[20px] text-white' /></a>
+                                </div>
+                                <div className='bg-secondary rounded-full p-[8px]'>
+                                    {/* FACEBOOK ICON */}
+                                    <a href=""><FaLinkedinIn className='text-[16px] xl:text-[20px] text-white' /></a>
+                                </div>
+                                <div className='bg-secondary rounded-full p-[8px]'>
+                                    {/* YOUTUBE ICON */}
+                                    <a href="https://www.youtube.com/@creativeitbdpos"><IoLogoYoutube className='text-[16px] xl:text-[20px] text-white' /></a>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -93,7 +93,7 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className='mb-[30px] xl:mb-0'>
+                    <div className=''>
                         <h5 className='font-pops font-bold text-[22px] xl:text-[25px] text-[#fff] mb-[21px]'>Others</h5>
                         <div className='leading-10'>
                             <Link to='/AboutCreativeIt'>
