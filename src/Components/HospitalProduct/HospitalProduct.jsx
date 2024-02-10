@@ -5,10 +5,10 @@ import { PiDotFill } from "react-icons/pi";
 
 const HospitalProduct = () => {
   return (
-    <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
+    <div className='bg-white pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div className='xl:flex xl:justify-between xl:items-center'>
-          <h4 className='font-pops font-bold text-[28px] text-[#4CAF4F] mb-[20px]'>Hospital & Clinic Management Software</h4>
+          <h4 className='font-pops font-bold text-[20px] xl:text-[28px] text-[#4CAF4F] mb-[20px]'>Hospital & Clinic Management Software</h4>
           <div className='flex items-center bg-[#5F35F5] py-[14px] px-[20px] hover:bg-green-500 transition duration-300 ease-in-out rounded'>
             <FaDownload className='text-white text-[20px] xl:text-[25px] mr-[5px] xl:mr-[8px]' />
             <button className='font-pops font-bold text-[18px] xl:text-[20px] text-white'>Download PDF Document</button>
@@ -32,7 +32,7 @@ const HospitalProduct = () => {
                   <p className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>Setup Charge OneTime BDT. 95000/-</p>
                 </div>
                 <div className='flex items-center'>
-                  <PiDotFill className='text-[25px] mr-[8px]'/>
+                  <PiDotFill className='text-[20px] xl:text-[25px] mr-[5px] xl:mr-[8px]'/>
                   <p className='font-pops font-regular text-[18px] text-overlay'>Server & Maintenance BDT. 24000/y</p>
                 </div>
                 <div className='flex items-center'>
