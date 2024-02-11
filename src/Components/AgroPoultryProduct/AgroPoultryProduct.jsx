@@ -5,11 +5,11 @@ import { PiDotFill } from "react-icons/pi";
 
 const AgroPoultryProduct = () => {
   return (
-    <div className='bg-white pt-[235px] pb-[50px] xl:pb-[100px]'>
+    <div className='bg-white pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <div className='xl:flex xl:justify-between xl:items-center'>
           <h4 className='font-pops font-bold text-[20px] xl:text-[28px] text-[#4CAF4F] mb-[20px]'>Poultry & Cow Farm Business Accounting Management Software</h4>
-          <div className='flex items-center bg-[#5F35F5] py-[14px] px-[20px] mb-[20px] xl:mb-0 hover:bg-green-500 transition duration-300 ease-in-out rounded'>
+          <div className='flex justify-center items-center bg-[#5F35F5] py-[14px] px-[20px] mb-[20px] xl:mb-0 hover:bg-green-500 transition duration-300 ease-in-out rounded'>
             <FaDownload className='text-white text-[20px] xl:text-[25px] mr-[5px] xl:mr-[8px]' />
             <button className='font-pops font-bold text-[18px] xl:text-[20px] text-white'>Download PDF Document</button>
           </div>
@@ -17,7 +17,7 @@ const AgroPoultryProduct = () => {
         <div className='xl:flex xl:justify-between'>
           <div className='mr-0 xl:mr-[50px]'>
             <div>
-              <div className='mb-[25px]'>
+              <div className='mb-[25px] mt-[20px]'>
                 <p className='font-pops font-bold text-[16px] xl:text-[18px] text-white bg-slate-600 rounded p-[15px]'>English & Bangla Online Responsive</p>
                 {/* <p className='font-pops font-bold text-[18px] text-white bg-teal-600 rounded p-[5px] mr-[15px]'>LUD: 2022-08-02</p>
                 <p className='font-pops font-bold text-[18px] text-white bg-blue-600 rounded p-[5px]'>V-2.0.1</p> */}
