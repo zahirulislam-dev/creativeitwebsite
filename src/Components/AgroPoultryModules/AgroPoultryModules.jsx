@@ -8,8 +8,8 @@ const AgroPoultryModules = () => {
             <div className='max-w-container mx-auto px-[10px] xl:px-0'>
                 <div className='xl:flex'>
                     <div className='xl:w-[80%]'>
+                        <h6 className='font-pops font-bold text-[28px] text-[#000020] mb-[20px]'>Software Modules</h6>
                         <div className='xl:flex'>
-                            <h6 className='font-pops font-bold text-[28px] text-[#000020] mb-[20px]'>Software Modules</h6>
                             <div className='mr-0 xl:mr-[150px] leading-9'>
                                 <div className='flex items-center'>
                                     <GoDotFill className='text-[20px]' />
