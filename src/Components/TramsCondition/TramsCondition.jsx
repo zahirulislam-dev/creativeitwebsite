@@ -8,7 +8,7 @@ const TramsCondition = () => {
                 <div>
                     <div className='border-b-2'>
                         <h2 className='font-pops font-bold text-[25px] xl:text-[45px] text-[#000020] mb-[10px]'>Trams and Condition</h2>
-                        <ul className='list-disc pl-[8px] leading-9'>
+                        <ul className='list-disc pl-[8px] leading-8'>
                             <li className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>One-time package setup charge of 50% must be paid in advance.</li>
                             <li className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>Monthly package setup fee is to be paid in advance.</li>
                             <li className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>Software will be delivered within 4-6 hours after payment.</li>
@@ -17,7 +17,7 @@ const TramsCondition = () => {
                     </div>
                     <div className='mt-[30px]'>
                         <h2 className='font-pops font-bold text-[25px] xl:text-[45px] text-[#000020] mb-[10px]'>Condition</h2>
-                        <ul className='list-disc pl-[8px] leading-9'>
+                        <ul className='list-disc pl-[8px] leading-8'>
                             <li className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>The software will be as a corresponding demo. so check the demo before confirming your order.</li>
                             <li className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>Client support hours are subject to change on all non-official holidays.</li>
                             <li className='font-pops font-regular text-[16px] xl:text-[18px] text-overlay'>No support will be provided on weekends.</li>

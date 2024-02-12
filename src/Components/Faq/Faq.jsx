@@ -150,7 +150,7 @@ const Faq = () => {
                 8
               </Typography>
               <Typography sx={{ color: 'text.secondary' }}>
-              If you want to move from other software to Explore IT, can you move with existing data?
+              If you want to move from other software to Creative IT, can you move with existing data?
               </Typography>
             </AccordionSummary>
             <AccordionDetails className='border-t'>
