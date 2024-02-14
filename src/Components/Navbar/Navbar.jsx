@@ -40,7 +40,7 @@ const Navbar = () => {
                                     <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Services</p>
                                     <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
 
-                                    <div className='group-hover:h-[260px] xl:group-hover:h-[275px] hidden group-hover:block transition-all w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
+                                    <div className='group-hover:h-[260px] xl:group-hover:h-[275px] hidden group-hover:block transition delay-1000 duration-1000 ease-in w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
                                         <Link to='/WebDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>Software Development</p></Link>
                                         <Link to='/WebDesignDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Web Design & Development</p></Link>
                                         <Link to='/WebAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Web App Development</p></Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
                                 <div className='group relative mb-[10px] md:mb-0 flex justify-between items-center cursor-pointer'>
                                     <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Products</p>
                                     <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
-                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition-all w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
+                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition delay-1000 duration-1000 ease-in w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
                                         <Link to='/ExploreReadyProducts'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>Ready POS Software</p></Link>
                                         <Link to='/WebsitePackageDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Website Package</p></Link>
                                     </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
                                 <div className='group relative mb-[10px] md:mb-0 flex justify-between items-center cursor-pointer'>
                                     <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Language</p>
                                     <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
-                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition-all w-[290px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
+                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition delay-1000 duration-1000 ease-in w-[290px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
                                         <p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>English</p>
                                         <p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Bangla</p>
                                     </div>
