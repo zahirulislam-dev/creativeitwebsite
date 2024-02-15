@@ -1,6 +1,5 @@
-import React from 'react'
-// import React, { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { FaMobileAlt } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
@@ -13,18 +12,18 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 const Contact = () => {
 
-    // const form = useRef();
+    const form = useRef();
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    //     emailjs.sendForm('service_7yyv3a3', 'template_1symqr9', form.current, 'OY0jwwmXfBYd54cTI')
-    //         .then((result) => {
-    //             console.log(result.text);
-    //         }, (error) => {
-    //             console.log(error.text);
-    //         });
-    // };
+        emailjs.sendForm('service_7yyv3a3', 'template_1symqr9', form.current, 'OY0jwwmXfBYd54cTI')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
     return (
         <div className='bg-[#F5F7FA] pt-[170px] xl:pt-[220px] pb-[50px] xl:pb-[100px]'>
@@ -32,32 +31,20 @@ const Contact = () => {
                 <p className='font-pops font-bold text-[25px] xl:text-[45px] text-[#1C1E53] text-center mb-[8px]'>QUICK CONTACT NOW</p>
                 <p className='font-pops font-medium text-[18px] xl:text-[20px] text-overlay text-center mb-[30px] xl:mb-[50px]'>We serve all over Bangladesh and in different countries of the Middle East..</p>
                 <div className='xl:flex xl:justify-between'>
-                    <div className='xl:w-[60%] bg-white py-[30px] px-[5px] xl:px-[30px]'>
+                    <form ref={form} onSubmit={sendEmail} className='xl:w-[60%] bg-white py-[30px] px-[5px] xl:px-[30px]'>
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Drop Us a Message</p>
 
-                        {/* EMAILJS CODE */}
-
-                        {/* <form ref={form} onSubmit={sendEmail}>
-                            <label>Name</label>
-                            <input type="text" name="user_name" />
-                            <label>Email</label>
-                            <input type="email" name="user_email" />
-                            <label>Message</label>
-                            <textarea name="message" />
-                            <input type="submit" value="Send" />
-                        </form> */}
-
                         <div className='flex mb-[20px]'>
-                            <input type="text" placeholder='Your Full Name' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
-                            <input type="text" placeholder='Mobile Number' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                            <input name='FullName' type="text" placeholder='Your Full Name' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                            <input name='MobileNumber' type="text" placeholder='Mobile Number' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
                         </div>
                         <div className='flex mb-[20px]'>
-                            <input type="email" placeholder='Email Address' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
-                            <input type="text" placeholder='Subject' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                            <input name='Email' type="email" placeholder='Email Address' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                            <input name='Subject' type="text" placeholder='Subject' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
                         </div>
-                        <textarea placeholder='Your Comments' cols="30" rows="5" className='font-pops font-medium text-[14px] xl:text-[18px] border w-full outline-none p-[15px] rounded'></textarea>
-                        <button className='font-pops text-[20px] font-semibold text-white border-none px-[42px] py-[14px] mt-[30px] bg-secondary rounded w-full'>Send</button>
-                    </div>
+                        <textarea name='Message' placeholder='Your Comments' cols="30" rows="5" className='font-pops font-medium text-[14px] xl:text-[18px] border w-full outline-none p-[15px] rounded'></textarea>
+                        <button type='submit' value='Send' className='font-pops text-[20px] font-semibold text-white border-none px-[42px] py-[14px] mt-[30px] bg-secondary rounded w-full'>Send</button>
+                    </form>
                     <div className='xl:w-[40%] bg-white py-[30px] px-[5px] xl:px-[30px] ml-0 xl:ml-[50px] mt-[20px] xl:mt-0'>
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Contact Information</p>
                         <div className='flex items-center mb-[20px]'>
