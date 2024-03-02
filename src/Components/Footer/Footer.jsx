@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                         <div className='flex mb-[15px]'>
                             <IoMdMailUnread className='text-[22px] text-white' />
-                            <p className='font-pops font-regular text-[16px] text-[#fff] ml-[10px]'>1stcreativeitbdt@gmail.com</p>
+                            <p className='font-pops font-regular text-[16px] text-[#fff] ml-[10px]'>1stcreativeitbd@gmail.com</p>
                         </div>
                         <div className='flex mb-[15px]'>
                             <BsFillPhoneFill className='text-[22px] text-white' />

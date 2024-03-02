@@ -11,12 +11,12 @@ import { CgSpinnerTwoAlt } from "react-icons/cg";
 
 const WebHostingPackage = () => {
   return (
-    <div className='bg-[#F5F7FA] pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
+    <div className='bg-[#F5F7FA] py-[30px] xl:py-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
         <p className='font-pops font-bold text-[30px] xl:text-[64px] text-[#1C1E53] text-center mb-[20px]'>PREMIUM WEB HOSTING PACKAGES</p>
         <p className='font-pops font-medium text-[18px] xl:text-[20px] text-overlay text-center mb-[20px] xl:mb-[50px]'>Choose your package from our package list</p>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[20px]'>
-          <div className='bg-[#fff] px-[20px] py-[30px] shadow rounded'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded'>
             <h3 className='font-pops font-semibold text-[25px] xl:text-[30px] text-[#1C1E53]'>Basic</h3>
               <p className='font-pops font-medium text-[18px] xl:text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -57,7 +57,7 @@ const WebHostingPackage = () => {
               <button className='font-pops font-semibold text-[18px] xl:text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded mt-[20px] xl:mt-0'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded'>
             <h3 className='font-pops font-semibold text-[25px] xl:text-[30px] text-[#1C1E53]'>Advance</h3>
               <p className='font-pops font-medium text-[18px] xl:text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -98,7 +98,7 @@ const WebHostingPackage = () => {
               <button className='font-pops font-semibold text-[18px] xl:text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded mt-[20px] xl:mt-0'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded'>
             <h3 className='font-pops font-semibold text-[25px] xl:text-[30px] text-[#1C1E53]'>Professional</h3>
               <p className='font-pops font-medium text-[18px] xl:text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
@@ -139,7 +139,7 @@ const WebHostingPackage = () => {
               <button className='font-pops font-semibold text-[18px] xl:text-[20px] text-white bg-[#4CAF4F] py-[15px] w-full rounded mt-[40px]'>Order Now</button>
             </Link>
           </div>
-          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded mt-[20px] xl:mt-0'>
+          <div className='bg-[#fff] px-[25px] py-[30px] shadow rounded'>
             <h3 className='font-pops font-semibold text-[25px] xl:text-[30px] text-[#1C1E53]'>Professional Plus</h3>
               <p className='font-pops font-medium text-[18px] xl:text-[20px] text-[#5F35F5] mt-[8px]'>Premium</p>
             <div className='mt-[15px]'>
