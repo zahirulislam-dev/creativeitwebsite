@@ -22,7 +22,7 @@ const BulkSms = () => {
               </div>
               <div className='flex items-center bg-white'>
                 <div className='w-[300px] font-pops font-semibold text-[14px] xl:text-[18px] text-center text-overlay py-[25px] border'>Fixed Number</div>
-                <div className='w-[300px] font-pops font-semibold text-[14px] xl:text-[18px] text-center text-overlay py-[25px] border'>.65 Poisa/SMS</div>
+                <div className='w-[300px] font-pops font-semibold text-[14px] xl:text-[18px] text-center text-overlay py-[25px] border'>1.50 Poisa/SMS</div>
                 <div className='w-[300px] font-pops font-semibold text-[14px] xl:text-[18px] text-center text-overlay py-[25px] border'>6 Month</div>
               </div>
             </div>
