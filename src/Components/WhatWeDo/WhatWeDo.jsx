@@ -29,7 +29,7 @@ const WhatWeDo = () => {
                   <div className=''>
                     <img src={WebDesignDev} alt="" className='w-[100px] h-[100px] mb-[10px] mx-auto'/>
                     <h4 className='font-pops font-semibold text-[18px] xl:text-[20px] text-[#4CAF4F] text-center mb-[20px]'>Web Design & Development</h4>
-                    <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay text-center mb-[15px] leading-9'>We developed any kinks of the website along with an interactive, strong ...</p>
+                    <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay text-center mb-[15px] leading-9'>We developed any kinds of the website along with an interactive, strong ...</p>
                   </div>
                   <Link to='/WebDesignDevelopmentDetails'>
                   <div className='flex items-center justify-center'>

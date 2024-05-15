@@ -11,7 +11,7 @@ const WebDesignDevelopment = () => {
         <div className='xl:flex xl:justify-between xl:items-center'>
           <div className='border-b-2'>
             <div className=''>
-              <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[20px] xl:w-[990px] leading-9'>We developed any kinks of the website along with an interactive, strong & a user-friendly platform that is based on so much easy to update easy to manage content. We ensure High-level security, user rights protection, and are simultaneously updateable together one or more users. You can make any changes to your website anytime and anywhere. Choose your package from our package list & we all so developed customized web site as your demands.</p>
+              <p className='font-pops font-medium text-[16px] xl:text-[18px] text-overlay mb-[20px] xl:w-[990px] leading-9'>We developed any kinds of the website along with an interactive, strong & a user-friendly platform that is based on so much easy to update easy to manage content. We ensure High-level security, user rights protection, and are simultaneously updateable together one or more users. You can make any changes to your website anytime and anywhere. Choose your package from our package list & we all so developed customized web site as your demands.</p>
             </div>
             <div className='xl:flex xl:items-center mb-[20px]'>
               <div>
