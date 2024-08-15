@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
@@ -8,6 +8,9 @@ import Counter from '../../Components/Counter/Counter'
 import OurTeamMembers from '../../Components/OurTeamMembers/OurTeamMembers'
 
 const AboutCreativeIt = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
         <Header/>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
@@ -10,6 +10,9 @@ import HospitalModules from '../../Components/HospitalModules/HospitalModules'
 import HospitalVideoScreenshot from '../../Components/HospitalVideoScreenshot/HospitalVideoScreenshot'
 
 const HospitalSoftDetails = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
         <Header></Header>

@@ -39,11 +39,16 @@ import WebsitePackageDetails from './Pages/WebsitePackageDetails/WebsitePackageD
 import BulkSmsDetails from './Pages/BulkSmsDetails/BulkSmsDetails.jsx';
 import DomainRegistrationDetails from './Pages/DomainRegistrationDetails/DomainRegistrationDetails.jsx';
 import PremiumHostingDetails from './Pages/PremiumHostingDetails/PremiumHostingDetails.jsx';
+import Home from './Components/Home/Home.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+  },
+  {
+    path: "/Home",
+    element: <Home/>,
   },
   {
     path: "/AboutCreativeIt",

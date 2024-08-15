@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
@@ -10,6 +10,9 @@ import BsPosModules from '../../Components/BsPosModules/BsPosModules'
 import BsPosVideoScreenshot from '../../Components/BsPosVideoScreenshot/BsPosVideoScreenshot'
 
 const BsPosDetails = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
         <Header></Header>

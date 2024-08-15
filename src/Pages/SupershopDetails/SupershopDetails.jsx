@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
@@ -10,6 +10,9 @@ import Faq from '../../Components/Faq/Faq'
 import SupershopVideoScreenshot from '../../Components/SupershopVideoScreenshot/SupershopVideoScreenshot'
 
 const SupershopDetails = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
         <Header></Header>

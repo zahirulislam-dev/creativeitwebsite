@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
@@ -11,6 +11,9 @@ import TilesSanitaryModules from '../../Components/TilesSanitaryModules/TilesSan
 import TilesSanitaryVideoScreenshot from '../../Components/TilesSanitaryVideoScreenshot/TilesSanitaryVideoScreenshot'
 
 const TilesanitaryPosDetails = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
         <Header></Header>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Components/Header/Header'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
@@ -10,6 +10,9 @@ import BrickFieldModules from '../../Components/BrickFieldModules/BrickFieldModu
 import BrickFieldVideoScreenshot from '../../Components/BrickFieldVideoScreenshot/BrickFieldVideoScreenshot'
 
 const BrickFieldSoftDetails = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
         <Header></Header>
