@@ -16,6 +16,7 @@ export default {
         'primary': '#4364F7',
         'secondary': '#4CAF4F',
         'third': '#1C1E53',
+        'four': '#000',
         'overlay': 'rgba(0,0,0,0.60)',
         'shadow': '4px 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);'
       },

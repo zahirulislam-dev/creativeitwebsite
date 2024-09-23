@@ -1,13 +1,43 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import LogoFour from '../../assets/images/LogoFour.png'
 import { FaBars } from 'react-icons/fa'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { RxCross2 } from 'react-icons/rx'
-import { FaHome } from "react-icons/fa";
-import { FaLanguage } from "react-icons/fa";
 import { Link } from 'react-router-dom'
+import Dropdown from '../Layouts/Dropdown'
+import Flex from '../Layouts/Flex'
+import Container from '../Layouts/Container'
 
 const Navbar = () => {
+
+    const serviceRef = useRef();
+    const productRef = useRef();
+    const languageRef = useRef();
+
+    const [serviceShow, setServiceShow] = useState(false);
+    const [productShow, setProductShow] = useState(false);
+    const [languageShow, setLanguageShow] = useState(false);
+
+    useEffect(() => {
+        document.body.addEventListener('click', (e) => {
+            if (serviceRef.current.contains(e.target)) {
+                setServiceShow(true);
+            } else {
+                setServiceShow(false);
+            }
+            if (productRef.current.contains(e.target)) {
+                setProductShow(true);
+            } else {
+                setProductShow(false);
+            }
+            if (languageRef.current.contains(e.target)) {
+                setLanguageShow(true);
+            } else {
+                setLanguageShow(false);
+            }
+        })
+    }, []);
+
     const [show, setShow] = useState(false)
     const handleClick = () => {
         setShow(!show)
@@ -15,7 +45,7 @@ const Navbar = () => {
 
     return (
         <div className='bg-white py-[15px] fixed top-[58px] sm:top-[41px] w-full shadow z-[9999]'>
-            <div className='max-w-container mx-auto px-[10px] xl:px-0'>
+            <Container>
                 <div className='flex justify-between items-center'>
                     <div className='w-[20%]'>
                         <img src={LogoFour} alt="" />
@@ -36,52 +66,55 @@ const Navbar = () => {
                                 <div className='mb-[10px] md:mb-0 cursor-pointer'>
                                     <Link to='/AboutCreativeIt'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>About</p></Link>
                                 </div>
-                                <div className='group relative mb-[10px] md:mb-0 flex justify-between items-center cursor-pointer'>
-                                    <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Services</p>
-                                    <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
-
-                                    <div className='group-hover:h-[260px] xl:group-hover:h-[275px] hidden group-hover:block transition delay-1000 duration-1000 ease-in w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
-                                        <Link to='/WebDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>Software Development</p></Link>
-                                        <Link to='/WebDesignDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Web Design & Development</p></Link>
-                                        <Link to='/WebAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Web App Development</p></Link>
-                                        <Link to='/MobileAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Mobile App Development</p></Link>
-                                        <Link to='/DomainRegistrationDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Domain Registration</p></Link>
-                                        <Link to='/PremiumHostingDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Premium Web Hosting</p></Link>
-                                        <Link to='/BulkSmsDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Bulk SMS</p></Link>
-                                    </div>
-                                </div>
-                                <div className='group relative mb-[10px] md:mb-0 flex justify-between items-center cursor-pointer'>
-                                    <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Products</p>
-                                    <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
-                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition delay-1000 duration-1000 ease-in w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
-                                        <Link to='/ExploreReadyProducts'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>Ready POS Software</p></Link>
-                                        <Link to='/WebsitePackageDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Website Package</p></Link>
-                                    </div>
-                                </div>
-                                {/* <div className='group relative mb-[10px] md:mb-0 flex justify-between items-center cursor-pointer'>
-                                    <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Clients</p>
-                                    <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
-                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition-all w-[350px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px]'>
-                                        <p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>Featured Clients</p>
-                                        <p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Others Clients</p>
-                                    </div>
-                                </div> */}
+                                <Dropdown dropRef={serviceRef} className='mb-[10px] md:mb-0 cursor-pointer'>
+                                    <Flex>
+                                        <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Services</p>
+                                        <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
+                                    </Flex>
+                                    {serviceShow && (
+                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[300px] sm:w-[350px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
+                                            <Link to='/WebDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</p></Link>
+                                            <Link to='/WebDesignDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web Design & Development</p></Link>
+                                            <Link to='/WebAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web App Development</p></Link>
+                                            <Link to='/MobileAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Mobile App Development</p></Link>
+                                            <Link to='/DomainRegistrationDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Domain Registration</p></Link>
+                                            <Link to='/PremiumHostingDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Premium Web Hosting</p></Link>
+                                            <Link to='/BulkSmsDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bulk SMS</p></Link>
+                                        </ul>
+                                    )}
+                                </Dropdown>
+                                <Dropdown dropRef={productRef} className='mb-[10px] md:mb-0 cursor-pointer'>
+                                    <Flex>
+                                        <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Products</p>
+                                        <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
+                                    </Flex>
+                                    {productShow && (
+                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[300px] sm:w-[350px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
+                                            <Link to='/ExploreReadyProducts'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Ready POS Software</p></Link>
+                                            <Link to='/WebsitePackageDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Website Package</p></Link>
+                                        </ul>
+                                    )}
+                                </Dropdown>
                                 <div className='mb-[10px] md:mb-0 cursor-pointer'>
                                     <Link to='/ContactDetails'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Contact</p></Link>
                                 </div>
-                                <div className='group relative mb-[10px] md:mb-0 flex justify-between items-center cursor-pointer'>
-                                    <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Language</p>
-                                    <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
-                                    <div className='group-hover:h-[90px] xl:group-hover:h-[100px] hidden  group-hover:block transition delay-1000 duration-1000 ease-in w-[290px] left-[-4] top-[30px] bg-gray-100 shadow-lg absolute rounded-[8px] p-[20px] z-[9999]'>
-                                        <p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000]'>English</p>
-                                        <p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:text-[#000000] mt-[8px]'>Bangla</p>
-                                    </div>
-                                </div>
+                                <Dropdown dropRef={languageRef} className='cursor-pointer'>
+                                    <Flex>
+                                        <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Language</p>
+                                        <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
+                                    </Flex>
+                                    {languageShow && (
+                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[300px] sm:w-[350px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
+                                            <Link to='/ExploreReadyProducts'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</p></Link>
+                                            <Link to='/WebsitePackageDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</p></Link>
+                                        </ul>
+                                    )}
+                                </Dropdown>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container>
         </div>
     )
 }
