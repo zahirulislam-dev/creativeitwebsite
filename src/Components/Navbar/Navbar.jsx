@@ -48,7 +48,9 @@ const Navbar = () => {
             <Container>
                 <div className='flex justify-between items-center'>
                     <div className='w-[20%]'>
-                        <img src={LogoFour} alt="" />
+                        <Link to='/'>
+                            <img src={LogoFour} alt="" />
+                        </Link>
                     </div>
                     <div className='flex justify-end'>
                         <div onClick={handleClick} className='block md:hidden'>
@@ -72,14 +74,14 @@ const Navbar = () => {
                                         <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
                                     </Flex>
                                     {serviceShow && (
-                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[300px] sm:w-[350px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/WebDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</p></Link>
-                                            <Link to='/WebDesignDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web Design & Development</p></Link>
-                                            <Link to='/WebAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web App Development</p></Link>
-                                            <Link to='/MobileAppDevelopmentDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Mobile App Development</p></Link>
-                                            <Link to='/DomainRegistrationDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Domain Registration</p></Link>
-                                            <Link to='/PremiumHostingDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Premium Web Hosting</p></Link>
-                                            <Link to='/BulkSmsDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bulk SMS</p></Link>
+                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[320px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
+                                            <Link to='/WebDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</li></Link>
+                                            <Link to='/WebDesignDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web Design & Development</li></Link>
+                                            <Link to='/WebAppDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web App Development</li></Link>
+                                            <Link to='/MobileAppDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Mobile App Development</li></Link>
+                                            <Link to='/DomainRegistrationDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Domain Registration</li></Link>
+                                            <Link to='/PremiumHostingDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Premium Web Hosting</li></Link>
+                                            <Link to='/BulkSmsDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bulk SMS</li></Link>
                                         </ul>
                                     )}
                                 </Dropdown>
@@ -89,9 +91,9 @@ const Navbar = () => {
                                         <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
                                     </Flex>
                                     {productShow && (
-                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[300px] sm:w-[350px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/ExploreReadyProducts'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Ready POS Software</p></Link>
-                                            <Link to='/WebsitePackageDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Website Package</p></Link>
+                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[300px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
+                                            <Link to='/ExploreReadyProducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Ready POS Software</li></Link>
+                                            <Link to='/WebsitePackageDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Website Package</li></Link>
                                         </ul>
                                     )}
                                 </Dropdown>
@@ -104,9 +106,9 @@ const Navbar = () => {
                                         <MdKeyboardArrowDown className='text-[#4364F7] text-[25px] lg:ml-[5px]' />
                                     </Flex>
                                     {languageShow && (
-                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[300px] sm:w-[350px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/ExploreReadyProducts'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</p></Link>
-                                            <Link to='/WebsitePackageDetails'><p className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</p></Link>
+                                        <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[280px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
+                                            <Link to='/ExploreReadyProducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</li></Link>
+                                            <Link to='/WebsitePackageDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</li></Link>
                                         </ul>
                                     )}
                                 </Dropdown>

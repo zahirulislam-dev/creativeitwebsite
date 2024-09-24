@@ -17,11 +17,18 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // Validate form before sending email
+        if (!validateForm()) {
+            return; // Stop submission if validation fails
+        }
+
         emailjs.sendForm('service_7yyv3a3', 'template_1symqr9', form.current, 'OY0jwwmXfBYd54cTI')
             .then((result) => {
                 console.log(result.text);
+                alert('Message sent successfully!');
             }, (error) => {
                 console.log(error.text);
+                alert('Failed to send message, please try again.');
             });
     };
 
