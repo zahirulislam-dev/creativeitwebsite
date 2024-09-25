@@ -66,7 +66,7 @@ const Navbar = () => {
                                     </div>
                                 </Link>
                                 <div className='mb-[10px] md:mb-0 cursor-pointer'>
-                                    <Link to='/AboutCreativeIt'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>About</p></Link>
+                                    <Link to='/aboutcreativeit'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>About</p></Link>
                                 </div>
                                 <Dropdown dropRef={serviceRef} className='mb-[10px] md:mb-0 cursor-pointer'>
                                     <Flex>
@@ -75,13 +75,13 @@ const Navbar = () => {
                                     </Flex>
                                     {serviceShow && (
                                         <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[320px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/WebDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</li></Link>
-                                            <Link to='/WebDesignDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web Design & Development</li></Link>
-                                            <Link to='/WebAppDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web App Development</li></Link>
-                                            <Link to='/MobileAppDevelopmentDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Mobile App Development</li></Link>
-                                            <Link to='/DomainRegistrationDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Domain Registration</li></Link>
-                                            <Link to='/PremiumHostingDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Premium Web Hosting</li></Link>
-                                            <Link to='/BulkSmsDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bulk SMS</li></Link>
+                                            <Link to='/webdevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</li></Link>
+                                            <Link to='/webdesigndevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web Design & Development</li></Link>
+                                            <Link to='/webappdevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web App Development</li></Link>
+                                            <Link to='/mobileappdevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Mobile App Development</li></Link>
+                                            <Link to='/domainregistrationdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Domain Registration</li></Link>
+                                            <Link to='/premiumhostingdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Premium Web Hosting</li></Link>
+                                            <Link to='/bulksmsdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bulk SMS</li></Link>
                                         </ul>
                                     )}
                                 </Dropdown>
@@ -92,13 +92,13 @@ const Navbar = () => {
                                     </Flex>
                                     {productShow && (
                                         <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[300px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/ExploreReadyProducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Ready POS Software</li></Link>
-                                            <Link to='/WebsitePackageDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Website Package</li></Link>
+                                            <Link to='/explorereadyproducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Ready POS Software</li></Link>
+                                            <Link to='/websitepackagedetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Website Package</li></Link>
                                         </ul>
                                     )}
                                 </Dropdown>
                                 <div className='mb-[10px] md:mb-0 cursor-pointer'>
-                                    <Link to='/ContactDetails'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Contact</p></Link>
+                                    <Link to='/contactdetails'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Contact</p></Link>
                                 </div>
                                 <Dropdown dropRef={languageRef} className='cursor-pointer'>
                                     <Flex>
@@ -107,8 +107,8 @@ const Navbar = () => {
                                     </Flex>
                                     {languageShow && (
                                         <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[280px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/ExploreReadyProducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</li></Link>
-                                            <Link to='/WebsitePackageDetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</li></Link>
+                                            <Link to='/explorereadyproducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</li></Link>
+                                            <Link to='/websitepackagedetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</li></Link>
                                         </ul>
                                     )}
                                 </Dropdown>

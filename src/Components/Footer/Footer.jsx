@@ -61,28 +61,28 @@ const Footer = () => {
                         <h5 className='font-pops font-bold text-[22px] xl:text-[25px] text-[#fff] mb-[21px]'>Our Services</h5>
                         <div className='leading-10'>
                             <div>
-                                <Link to='/WebDevelopmentDetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Software Development</button></Link>
+                                <Link to='/webdevelopmentdetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Software Development</button></Link>
                             </div>
                             <div>
-                                <Link to='/WebDesignDevelopmentDetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Web Design & Development</button></Link>
+                                <Link to='/webdesigndevelopmentdetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Web Design & Development</button></Link>
                             </div>
                             <div>
-                                <Link to='/WebAppDevelopmentDetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Web App Development</button></Link>
+                                <Link to='/webappdevelopmentdetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Web App Development</button></Link>
                             </div>
                             <div>
-                                <Link to='/MobileAppDevelopmentDetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Mobile App Development</button></Link>
+                                <Link to='/mobileappdevelopmentdetails'><button className='font-pops font-regular text-[16px] text-[#fff]'>Mobile App Development</button></Link>
                             </div>
-                            <Link to='/DomainRegistrationDetails'>
+                            <Link to='/domainregistrationdetails'>
                                 <div>
                                     <button className='font-pops font-regular text-[16px] text-[#fff]'>Domain Registration</button>
                                 </div>
                             </Link>
-                            <Link to='/PremiumHostingDetails'>
+                            <Link to='/premiumhostingdetails'>
                                 <div>
                                     <button className='font-pops font-regular text-[16px] text-[#fff]'>Premium Web Hosting</button>
                                 </div>
                             </Link>
-                            <Link to='/BulkSmsDetails'>
+                            <Link to='/bulksmsdetails'>
                                 <div>
                                     <button className='font-pops font-regular text-[16px] text-[#fff]'>Bulk SMS</button>
                                 </div>
@@ -96,12 +96,12 @@ const Footer = () => {
                     <div className=''>
                         <h5 className='font-pops font-bold text-[22px] xl:text-[25px] text-[#fff] mb-[21px]'>Others</h5>
                         <div className='leading-10'>
-                            <Link to='/AboutCreativeIt'>
+                            <Link to='/aboutcreativeit'>
                                 <div>
                                     <button className='font-pops font-regular text-[16px] text-[#fff]'>About</button>
                                 </div>
                             </Link>
-                            <Link to='/ContactDetails'>
+                            <Link to='/contactdetails'>
                                 <div>
                                     <button className='font-pops font-regular text-[16px] text-[#fff]'>Contact</button>
                                 </div>

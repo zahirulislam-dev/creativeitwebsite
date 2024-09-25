@@ -16,26 +16,26 @@ const Banner = () => {
             <p className='font-pops md:text-[18px] text-[16px] font-medium text-white leading-8 md:tracking-wide md:w-[700px] lg:w-[818px] mb-8'>We work to make your life easier and more dynamic through loading less technology. We are providing Accounting, Inventory & Billing Management software for small to large business organizations. Currently, Also we are providing the following services...</p>
             <div className='flex items-center'>
               <PiDotFill className='text-white text-[30px]' />
-              <Link to='/WebDevelopmentDetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Software Development</button></Link>
+              <Link to='/webdevelopmentdetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Software Development</button></Link>
             </div>
             <div className='flex'>
               <PiDotFill className='text-white text-[30px]' />
-              <Link to='/WebDesignDevelopmentDetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Web Design & Development</button></Link>
+              <Link to='/webdesigndevelopmentdetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Web Design & Development</button></Link>
             </div>
             <div className='flex'>
               <PiDotFill className='text-white text-[30px]' />
-              <Link to='/WebAppDevelopmentDetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Web Application Develpment</button></Link>
+              <Link to='/webappdevelopmentdetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Web Application Develpment</button></Link>
             </div>
             <div className='flex'>
               <PiDotFill className='text-white text-[30px]' />
-              <Link to='/MobileAppDevelopmentDetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Andorid App Development</button></Link>
+              <Link to='/mobileappdevelopmentdetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Andorid App Development</button></Link>
             </div>
             <div className='flex'>
               <PiDotFill className='text-white text-[30px]' />
               <button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Digital Marketing</button>
             </div>
             <div className='mt-[38px]'>
-              <Link to='/exploreReadyProducts'>
+              <Link to='/explorereadyproducts'>
                 <button className='font-pops text-[16px] md:text-[20px] font-semibold text-[#4364F7] border-none py-[14px] bg-white hover:text-[#FFB800] rounded w-full sm:w-[300px] md:w-[358px]'>Explore Our Ready POS Software</button>
               </Link>
             </div>

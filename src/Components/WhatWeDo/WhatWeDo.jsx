@@ -9,25 +9,25 @@ const WhatWeDo = () => {
       name: "Software Development",
       imageurl: 'https://i.ibb.co.com/vQyzpnv/software-Dev.png',
       description: 'We are developing customized software for small to large businesses, Edu...',
-      btn: '/WebDevelopmentDetails',
+      btn: '/webdevelopmentdetails',
     },
     {
       name: "Web Design & Development",
       imageurl: 'https://i.ibb.co.com/M1FXSBJ/Web-Design-Dev.jpg',
       description: 'We developed any kinds of the website along with an interactive, strong ...',
-      btn: '/WebDesignDevelopmentDetails',
+      btn: '/webdesigndevelopmentdetails',
     },
     {
       name: "Web App Development",
       imageurl: 'https://i.ibb.co.com/Sfcbj2V/WebApp.png',
       description: 'We are including web application development services since 2019. The we...',
-      btn: '/WebAppDevelopmentDetails',
+      btn: '/webappdevelopmentdetails',
     },
     {
       name: "Mobile App Development",
       imageurl: 'https://i.ibb.co.com/nrjBqMk/Mobile-App-Dev.png',
       description: 'We are including web application development services since 2019. The we...',
-      btn: '/MobileAppDevelopmentDetails',
+      btn: '/mobileappdevelopmentdetails',
     },
   ];
 

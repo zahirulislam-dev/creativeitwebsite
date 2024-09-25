@@ -44,138 +44,134 @@ import Home from './Components/Home/Home.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
-  },
-  {
-    path: "/Home",
     element: <Home/>,
   },
   {
-    path: "/AboutCreativeIt",
+    path: "/aboutcreativeit",
     element: <AboutCreativeIt/>,
   },
   {
-    path: "/WebsitePackageDetails",
+    path: "/websitepackagedetails",
     element: <WebsitePackageDetails/>,
   },
   {
-    path: "/ContactDetails",
+    path: "/contactdetails",
     element: <ContactDetails/>,
   },
   {
-    path: "/ExploreReadyProducts",
+    path: "/explorereadyproducts",
     element: <ExploreReadyProducts/>,
   },
   {
-    path: "/SupershopDetails",
+    path: "/supershopdetails",
     element: <SupershopDetails/>,
   },
   {
-    path: "/CposDetails",
+    path: "/cposdetails",
     element: <CposDetails/>,
   },
   {
-    path: "/BsposDetails",
+    path: "/bsposdetails",
     element: <BsPosDetails/>,
   },
   {
-    path: "/BsMultibranchPosDetails",
+    path: "/bsmultibranchposdetails",
     element: <BsMultibranchPosDetails/>,
   },
   {
-    path: "/PharmaPosDetails",
+    path: "/pharmaposdetails",
     element: <PharmaPosDetails/>,
   },
   {
-    path: "/TilesanitaryPosDetails",
+    path: "/tilesanitaryposdetails",
     element: <TilesanitaryPosDetails/>,
   },
   {
-    path: "/ElectroPosDetails",
+    path: "/electroposdetails",
     element: <ElectroPosDetails/>,
   },
   {
-    path: "/DealerDistributionPosDetails",
+    path: "/dealerdistributionposdetails",
     element: <DealerDistributionPosDetails/>,
   },
   {
-    path: "/RestaurantPosDetails",
+    path: "/restaurantposdetails",
     element: <RestaurantPosDetails/>,
   },
   {
-    path: "/LpgPosDetails",
+    path: "/lpgposdetails",
     element: <LpgPosDetails/>,
   },
   {
-    path: "/AgroPoultryPosDetails",
+    path: "/agropoultryposdetails",
     element: <AgroPoultryPosDetails/>,
   },
   {
-    path: "/TrainingCoachingSoftDetails",
+    path: "/trainingcoachingsoftdetails",
     element: <TrainingCoachingSoftDetails/>,
   },
   {
-    path: "/EducationInstituteSoftDetails",
+    path: "/educationinstitutesoftdetails",
     element: <EducationInstituteSoftDetails/>,
   },
   {
-    path: "/FactorySoftDetails",
+    path: "/factorysoftdetails",
     element: <FactorySoftDetails/>,
   },
   {
-    path: "/BrickFieldSoftDetails",
+    path: "/brickfieldsoftdetails",
     element: <BrickFieldSoftDetails/>,
   },
   {
-    path: "/AccountingSoftDetails",
+    path: "/accountingsoftdetails",
     element: <AccountingSoftDetails/>,
   },
   {
-    path: "/OfficeManagementSoftDetails",
+    path: "/officemanagementsoftdetails",
     element: <OfficeManagementSoftDetails/>,
   },
   {
-    path: "/HospitalSoftDetails",
+    path: "/hospitalsoftdetails",
     element: <HospitalSoftDetails/>,
   },
   {
-    path: "/DiagnosticSoftDetails",
+    path: "/diagnosticsoftdetails",
     element: <DiagnosticSoftDetails/>,
   },
   {
-    path: "/StockInventorySoftDetails",
+    path: "/stockinventoryioftdetails",
     element: <StockInventorySoftDetails/>,
   },
   {
-    path: "/IspBillingSoftDetails",
+    path: "/ispbillingsoftdetails",
     element: <IspBillingSoftDetails/>,
   },
   {
-    path: "/WebDevelopmentDetails",
+    path: "/webdevelopmentdetails",
     element: <WebDevelopmentDetails/>,
   },
   {
-    path: "/WebDesignDevelopmentDetails",
+    path: "/webdesigndevelopmentdetails",
     element: <WebDesignDevelopmentDetails/>,
   },
   {
-    path: "/WebAppDevelopmentDetails",
+    path: "/webappdevelopmentdetails",
     element: <WebAppDevelopmentDetails/>,
   },
   {
-    path: "/MobileAppDevelopmentDetails",
+    path: "/mobileappdevelopmentdetails",
     element: <MobileAppDevelopmentDetails/>,
   },
   {
-    path: "/PremiumHostingDetails",
+    path: "/premiumhostingdetails",
     element: <PremiumHostingDetails/>,
   },
   {
-    path: "/BulkSmsDetails",
+    path: "/bulksmsdetails",
     element: <BulkSmsDetails/>,
   },
   {
-    path: "/DomainRegistrationDetails",
+    path: "/domainregistrationdetails",
     element: <DomainRegistrationDetails/>,
   },
 ]);
