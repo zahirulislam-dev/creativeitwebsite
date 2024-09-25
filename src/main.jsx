@@ -1,12 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 
 import {
+  createRoutesFromElements,
   createBrowserRouter,
+  Route,
   RouterProvider,
 } from "react-router-dom";
+
 import SupershopDetails from './Pages/SupershopDetails/SupershopDetails.jsx';
 import ExploreReadyProducts from './Pages/ExploreReadyProducts/ExploreReadyProducts.jsx';
 import CposDetails from './Pages/CposDetails/CposDetails.jsx';
@@ -41,144 +43,148 @@ import DomainRegistrationDetails from './Pages/DomainRegistrationDetails/DomainR
 import PremiumHostingDetails from './Pages/PremiumHostingDetails/PremiumHostingDetails.jsx';
 import Home from './Components/Home/Home.jsx';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "/aboutcreativeit",
-    element: <AboutCreativeIt/>,
-  },
-  {
-    path: "/websitepackagedetails",
-    element: <WebsitePackageDetails/>,
-  },
-  {
-    path: "/contactdetails",
-    element: <ContactDetails/>,
-  },
-  {
-    path: "/explorereadyproducts",
-    element: <ExploreReadyProducts/>,
-  },
-  {
-    path: "/supershopdetails",
-    element: <SupershopDetails/>,
-  },
-  {
-    path: "/cposdetails",
-    element: <CposDetails/>,
-  },
-  {
-    path: "/bsposdetails",
-    element: <BsPosDetails/>,
-  },
-  {
-    path: "/bsmultibranchposdetails",
-    element: <BsMultibranchPosDetails/>,
-  },
-  {
-    path: "/pharmaposdetails",
-    element: <PharmaPosDetails/>,
-  },
-  {
-    path: "/tilesanitaryposdetails",
-    element: <TilesanitaryPosDetails/>,
-  },
-  {
-    path: "/electroposdetails",
-    element: <ElectroPosDetails/>,
-  },
-  {
-    path: "/dealerdistributionposdetails",
-    element: <DealerDistributionPosDetails/>,
-  },
-  {
-    path: "/restaurantposdetails",
-    element: <RestaurantPosDetails/>,
-  },
-  {
-    path: "/lpgposdetails",
-    element: <LpgPosDetails/>,
-  },
-  {
-    path: "/agropoultryposdetails",
-    element: <AgroPoultryPosDetails/>,
-  },
-  {
-    path: "/trainingcoachingsoftdetails",
-    element: <TrainingCoachingSoftDetails/>,
-  },
-  {
-    path: "/educationinstitutesoftdetails",
-    element: <EducationInstituteSoftDetails/>,
-  },
-  {
-    path: "/factorysoftdetails",
-    element: <FactorySoftDetails/>,
-  },
-  {
-    path: "/brickfieldsoftdetails",
-    element: <BrickFieldSoftDetails/>,
-  },
-  {
-    path: "/accountingsoftdetails",
-    element: <AccountingSoftDetails/>,
-  },
-  {
-    path: "/officemanagementsoftdetails",
-    element: <OfficeManagementSoftDetails/>,
-  },
-  {
-    path: "/hospitalsoftdetails",
-    element: <HospitalSoftDetails/>,
-  },
-  {
-    path: "/diagnosticsoftdetails",
-    element: <DiagnosticSoftDetails/>,
-  },
-  {
-    path: "/stockinventoryioftdetails",
-    element: <StockInventorySoftDetails/>,
-  },
-  {
-    path: "/ispbillingsoftdetails",
-    element: <IspBillingSoftDetails/>,
-  },
-  {
-    path: "/webdevelopmentdetails",
-    element: <WebDevelopmentDetails/>,
-  },
-  {
-    path: "/webdesigndevelopmentdetails",
-    element: <WebDesignDevelopmentDetails/>,
-  },
-  {
-    path: "/webappdevelopmentdetails",
-    element: <WebAppDevelopmentDetails/>,
-  },
-  {
-    path: "/mobileappdevelopmentdetails",
-    element: <MobileAppDevelopmentDetails/>,
-  },
-  {
-    path: "/premiumhostingdetails",
-    element: <PremiumHostingDetails/>,
-  },
-  {
-    path: "/bulksmsdetails",
-    element: <BulkSmsDetails/>,
-  },
-  {
-    path: "/domainregistrationdetails",
-    element: <DomainRegistrationDetails/>,
-  },
-]);
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route
+        path="/"
+        element={<Home />}>
+        <Route index element={<Home />} />
+      </Route>
+      <Route
+        path="/aboutcreativeit"
+        element={<AboutCreativeIt />}>
+      </Route>
+      <Route
+        path="/websitepackagedetails"
+        element={<WebsitePackageDetails />}>
+      </Route>
+      <Route
+        path="/contactdetails"
+        element={<ContactDetails />}>
+      </Route>
+      <Route
+        path="/explorereadyproducts"
+        element={<ExploreReadyProducts />}>
+      </Route>
+      <Route
+        path="/supershopdetails"
+        element={<SupershopDetails />}>
+      </Route>
+      <Route
+        path="/cposdetails"
+        element={<CposDetails />}>
+      </Route>
+      <Route
+        path="/bsposdetails"
+        element={<BsPosDetails />}>
+      </Route>
+      <Route
+        path="/bsmultibranchposdetails"
+        element={<BsMultibranchPosDetails />}>
+      </Route>
+      <Route
+        path="/pharmaposdetails"
+        element={<PharmaPosDetails />}>
+      </Route>
+      <Route
+        path="/tilesanitaryposdetails"
+        element={<TilesanitaryPosDetails />}>
+      </Route>
+      <Route
+        path="/electroposdetails"
+        element={<ElectroPosDetails />}>
+      </Route>
+      <Route
+        path="/dealerdistributionposdetails"
+        element={<DealerDistributionPosDetails />}>
+      </Route>
+      <Route
+        path="/restaurantposdetails"
+        element={<RestaurantPosDetails />}>
+      </Route>
+      <Route
+        path="/lpgposdetails"
+        element={<LpgPosDetails />}>
+      </Route>
+      <Route
+        path="/agropoultryposdetails"
+        element={<AgroPoultryPosDetails />}>
+      </Route>
+      <Route
+        path="/trainingcoachingsoftdetails"
+        element={<TrainingCoachingSoftDetails />}>
+      </Route>
+      <Route
+        path="/educationinstitutesoftdetails"
+        element={<EducationInstituteSoftDetails />}>
+      </Route>
+      <Route
+        path="/factorysoftdetails"
+        element={<FactorySoftDetails />}>
+      </Route>
+      <Route
+        path="/brickfieldsoftdetails"
+        element={<BrickFieldSoftDetails />}>
+      </Route>
+      <Route
+        path="/accountingsoftdetails"
+        element={<AccountingSoftDetails />}>
+      </Route>
+      <Route
+        path="/officemanagementsoftdetails"
+        element={<OfficeManagementSoftDetails />}>
+      </Route>
+      <Route
+        path="/hospitalsoftdetails"
+        element={<HospitalSoftDetails />}>
+      </Route>
+      <Route
+        path="/diagnosticsoftdetails"
+        element={<DiagnosticSoftDetails />}>
+      </Route>
+      <Route
+        path="/stockinventoryioftdetails"
+        element={<StockInventorySoftDetails />}>
+      </Route>
+      <Route
+        path="/ispbillingsoftdetails"
+        element={<IspBillingSoftDetails />}>
+      </Route>
+      <Route
+        path="/webdevelopmentdetails"
+        element={<WebDevelopmentDetails />}>
+      </Route>
+      <Route
+        path="/webdesigndevelopmentdetails"
+        element={<WebDesignDevelopmentDetails />}>
+      </Route>
+      <Route
+        path="/webappdevelopmentdetails"
+        element={<WebAppDevelopmentDetails/>}>
+      </Route>
+      <Route
+        path="/mobileappdevelopmentdetails"
+        element={<MobileAppDevelopmentDetails/>}>
+      </Route>
+      <Route
+        path="/premiumhostingdetails"
+        element={<PremiumHostingDetails/>}>
+      </Route>
+      <Route
+        path="/bulksmsdetails"
+        element={<BulkSmsDetails/>}>
+      </Route>
+      <Route
+        path="/domainregistrationdetails"
+        element={<DomainRegistrationDetails/>}>
+      </Route>
+    </Route>
+  )
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    {/* <App /> */}
   </React.StrictMode>,
 )
