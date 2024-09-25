@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaMobileAlt } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io5";
@@ -12,7 +12,70 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 const Contact = () => {
 
+    // FORM VALIDATION STATES
+    const [fullName, setFullName] = useState('');
+    const [email, setEmail] = useState('');
+    const [mobileNumber, setMobileNumber] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+    const [fullNameerror, setFullNameerror] = useState('');
+    const [emailerror, setEmailerror] = useState('');
+    const [mobilenumbererror, setMobilenumbererror] = useState('');
+    const [subjecterror, setSubjecterror] = useState('');
+    const [messageerror, setMessageerror] = useState('');
+
+    // Input Handlers
+    const handleFullname = (e) => {
+        setFullName(e.target.value);
+        setFullNameerror('');
+    };
+    const handleEmail = (e) => {
+        setEmail(e.target.value);
+        setEmailerror('');
+    };
+    const handleMobileNumber = (e) => {
+        setMobileNumber(e.target.value);
+        setMobilenumbererror('');
+    };
+    const handleSubject = (e) => {
+        setSubject(e.target.value);
+        setSubjecterror('');
+    };
+    const handleMessage = (e) => {
+        setMessage(e.target.value);
+        setMessageerror('');
+    };
+
+    // Form submission and validation
     const form = useRef();
+
+    const validateForm = () => {
+        let isValid = true;
+
+        if (!fullName) {
+            setFullNameerror('Full Name is required !');
+            isValid = false;
+        }
+        if (!email) {
+            setEmailerror('Email is required !');
+            isValid = false;
+        }
+        if (!mobileNumber) {
+            setMobilenumbererror('Mobile Number is required !');
+            isValid = false;
+        }
+        if (!subject) {
+            setSubjecterror('Subject is required !');
+            isValid = false;
+        }
+        if (!message) {
+            setMessageerror('Your Message is required !');
+            isValid = false;
+        }
+
+        return isValid;
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -41,16 +104,29 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail} className='xl:w-[60%] bg-white py-[30px] px-[5px] xl:px-[30px]'>
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Drop Us a Message</p>
 
-                        <div className='flex mb-[20px]'>
-                            <input name='FullName' type="text" placeholder='Your Full Name' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
-                            <input name='MobileNumber' type="text" placeholder='Mobile Number' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                        <div className='flex mb-[20px] gap-[5px] xl:gap-[30px]'>
+                            <div className='w-full'>
+                                <input name='FullName' value={fullName} onChange={handleFullname} type="text" placeholder='Your Full Name' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                                {fullNameerror && <p className='font-kanit text-[12px] md:text-[18px] text-[#FFB800] mt-[5px]'>{fullNameerror}</p>}
+                            </div>
+                            <div className='w-full'>
+                                <input name='MobileNumber' value={mobileNumber} onChange={handleMobileNumber} type="text" placeholder='Mobile Number' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                                {mobilenumbererror && <p className='font-kanit text-[12px] md:text-[18px] text-[#FFB800] mt-[5px]'>{mobilenumbererror}</p>}
+                            </div>
                         </div>
-                        <div className='flex mb-[20px]'>
-                            <input name='Email' type="email" placeholder='Email Address' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
-                            <input name='Subject' type="text" placeholder='Subject' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                        <div className='flex mb-[20px] gap-[5px] xl:gap-[30px]'>
+                            <div className='w-full'>
+                                <input name='Email' type="email" value={email} onChange={handleEmail} placeholder='Email Address' className='border outline-none p-[15px] rounded mr-[5px] xl:mr-[30px] w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                                {emailerror && <p className='font-kanit text-[12px] md:text-[18px] text-[#FFB800] mt-[5px]'>{emailerror}</p>}
+                            </div>
+                            <div className='w-full'>
+                                <input name='Subject' value={subject} onChange={handleSubject} type="text" placeholder='Subject' className='border outline-none p-[15px] rounded w-full placeholder:font-pops placeholder:font-medium placeholder:text-[14px]' />
+                                {subjecterror && <p className='font-kanit text-[12px] md:text-[18px] text-[#FFB800] mt-[5px]'>{subjecterror}</p>}
+                            </div>
                         </div>
-                        <textarea name='Message' placeholder='Your Comments' cols="30" rows="5" className='font-pops font-medium text-[14px] xl:text-[18px] border w-full outline-none p-[15px] rounded'></textarea>
-                        <button type='submit' value='Send' className='font-pops text-[20px] font-semibold text-white border-none px-[42px] py-[14px] mt-[30px] bg-secondary rounded w-full'>Send</button>
+                        <textarea name='Message' value={message} onChange={handleMessage} placeholder='Your Message' cols="30" rows="5" className='font-pops font-medium text-[14px] xl:text-[18px] border w-full outline-none p-[15px] rounded'></textarea>
+                        {messageerror && <p className='font-kanit text-[12px] md:text-[18px] text-[#FFB800] mt-[5px]'>{messageerror}</p>}
+                        <button type='submit' value='Send' className='font-pops text-[20px] font-semibold text-white border-none px-[42px] py-[14px] mt-[30px] bg-secondary rounded w-full'>Send Message</button>
                     </form>
                     <div className='xl:w-[40%] bg-white py-[30px] px-[5px] xl:px-[30px] ml-0 xl:ml-[50px] mt-[20px] xl:mt-0'>
                         <p className='font-pops font-semibold text-[25px] xl:text-[35px] text-overlay mb-[30px]'>Contact Information</p>
