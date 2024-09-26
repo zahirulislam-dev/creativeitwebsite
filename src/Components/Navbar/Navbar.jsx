@@ -3,7 +3,7 @@ import LogoFour from '../../assets/images/LogoFour.png'
 import { FaBars } from 'react-icons/fa'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { RxCross2 } from 'react-icons/rx'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Dropdown from '../Layouts/Dropdown'
 import Flex from '../Layouts/Flex'
 import Container from '../Layouts/Container'
@@ -60,14 +60,16 @@ const Navbar = () => {
                         </div>
                         <div className='w-[80%]'>
                             <div className={`md:flex justify-end items-center xl:gap-x-[25px] md:gap-x-[8px] md:static w-full absolute top-[-200px] left-0 px-4 md:px-0 z-[999] ${show == true ? 'top-[70px] bg-white w-full py-[20px] md:bg-primary md:py-0' : 'top-[-485px] bg-white py-[20px] md:bg-white md:py-0'}`}>
-                                <Link to='/'>
+                                <NavLink to='/' className={({ isActive }) => isActive ? "border-b-2 border-four py-[2px]" : ""}>
                                     <div className='flex items-center mb-[10px] md:mb-0 cursor-pointer'>
                                         <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Home</p>
                                     </div>
-                                </Link>
-                                <div className='mb-[10px] md:mb-0 cursor-pointer'>
-                                    <Link to='/aboutcreativeit'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>About</p></Link>
-                                </div>
+                                </NavLink>
+                                <NavLink to='/aboutcreativeit' className={({ isActive }) => isActive ? "border-b-2 border-four py-[2px]" : ""}>
+                                    <div className='mb-[10px] md:mb-0 cursor-pointer'>
+                                        <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>About</p>
+                                    </div>
+                                </NavLink>
                                 <Dropdown dropRef={serviceRef} className='mb-[10px] md:mb-0 cursor-pointer'>
                                     <Flex>
                                         <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Services</p>
@@ -97,9 +99,11 @@ const Navbar = () => {
                                         </ul>
                                     )}
                                 </Dropdown>
-                                <div className='mb-[10px] md:mb-0 cursor-pointer'>
-                                    <Link to='/contactdetails'><p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Contact</p></Link>
-                                </div>
+                                < NavLink to='/contactdetails' className={({ isActive }) => isActive ? "border-b-2 border-four py-[2px]" : ""}>
+                                    <div className='mb-[10px] md:mb-0 cursor-pointer'>
+                                        <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Contact</p>
+                                    </div>
+                                </NavLink >
                                 <Dropdown dropRef={languageRef} className='cursor-pointer'>
                                     <Flex>
                                         <p className='font-pops text-[16px] xl:text-[18px] font-semibold text-[#4364F7]'>Language</p>
@@ -107,8 +111,8 @@ const Navbar = () => {
                                     </Flex>
                                     {languageShow && (
                                         <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[280px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/explorereadyproducts'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</li></Link>
-                                            <Link to='/websitepackagedetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</li></Link>
+                                            <li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>English</li>
+                                            <li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Bangla</li>
                                         </ul>
                                     )}
                                 </Dropdown>
