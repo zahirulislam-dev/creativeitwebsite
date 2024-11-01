@@ -77,7 +77,7 @@ const Navbar = () => {
                                     </Flex>
                                     {serviceShow && (
                                         <ul className='px-[8px] py-[20px] absolute mt-[10px] w-[280px] sm:w-[320px] bg-gray-100 shadow rounded-[8px] z-[9999]'>
-                                            <Link to='/webdevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</li></Link>
+                                            <Link to='/softwaredevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Software Development</li></Link>
                                             <Link to='/webdesigndevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web Design & Development</li></Link>
                                             <Link to='/webappdevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Web App Development</li></Link>
                                             <Link to='/mobileappdevelopmentdetails'><li className='font-pops font-semibold text-overlay text-[16px] xl:text-[18px] hover:bg-white hover:text-primary py-[8px] px-[15px] rounded'>Mobile App Development</li></Link>

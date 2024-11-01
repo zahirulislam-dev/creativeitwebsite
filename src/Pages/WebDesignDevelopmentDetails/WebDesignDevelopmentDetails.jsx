@@ -11,11 +11,7 @@ const WebDesignDevelopmentDetails = () => {
   },[])
   return (
     <div>
-      <Header/>
-      <Navbar/>
       <WebDesignDevelopment/>
-      <Footer/>
-      <Footernav/>
     </div>
   )
 }

@@ -16,7 +16,7 @@ const Banner = () => {
             <p className='font-pops md:text-[18px] text-[16px] font-medium text-white leading-8 md:tracking-wide md:w-[700px] lg:w-[818px] mb-8'>We work to make your life easier and more dynamic through loading less technology. We are providing Accounting, Inventory & Billing Management software for small to large business organizations. Currently, Also we are providing the following services...</p>
             <div className='flex items-center'>
               <PiDotFill className='text-white text-[30px]' />
-              <Link to='/webdevelopmentdetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Software Development</button></Link>
+              <Link to='/softwaredevelopmentdetails'><button className='font-pops md:text-[18px] text-[16px] font-medium text-white ml-[5px] hover:text-[#1C1E53] transition duration-300 ease-in-out'>Software Development</button></Link>
             </div>
             <div className='flex'>
               <PiDotFill className='text-white text-[30px]' />

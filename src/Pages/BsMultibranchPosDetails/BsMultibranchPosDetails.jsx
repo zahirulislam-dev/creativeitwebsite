@@ -1,8 +1,4 @@
 import React, { useEffect } from 'react'
-import Header from '../../Components/Header/Header'
-import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer'
-import Footernav from '../../Components/Footernav/Footernav'
 import TramsCondition from '../../Components/TramsCondition/TramsCondition'
 import Faq from '../../Components/Faq/Faq'
 import BsMultiBranchPosProduct from '../../Components/BsMultiBranchPosProduct/BsMultiBranchPosProduct'
@@ -10,20 +6,17 @@ import BsMultiBranchPosVideoScreenshot from '../../Components/BsMultiBranchPosVi
 import BsMultiBranchPosModules from '../../Components/BsMultiBranchPosModules/BsMultiBranchPosModules'
 
 const BsMultibranchPosDetails = () => {
-  useEffect(()=>{
-    window.scrollTo(0,0)
-  },[])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
-        <Header></Header>
-        <Navbar></Navbar>
-        <BsMultiBranchPosProduct></BsMultiBranchPosProduct>
-        <BsMultiBranchPosModules/>
-        <BsMultiBranchPosVideoScreenshot></BsMultiBranchPosVideoScreenshot>
-        <TramsCondition></TramsCondition>
-        <Faq></Faq>
-        <Footer></Footer>
-        <Footernav></Footernav>
+      <BsMultiBranchPosProduct></BsMultiBranchPosProduct>
+      <BsMultiBranchPosModules />
+      <BsMultiBranchPosVideoScreenshot></BsMultiBranchPosVideoScreenshot>
+      <TramsCondition></TramsCondition>
+      <Faq></Faq>
     </div>
   )
 }

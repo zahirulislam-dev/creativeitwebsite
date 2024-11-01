@@ -3,11 +3,11 @@ import softwareDev from '../../assets/images/softwareDev.jpg'
 import { MdCheckCircle } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
-const WebDevelopment = () => {
+const SoftwareDevelopment = () => {
   return (
     <div className='bg-white pt-[160px] sm:pt-[150px] pb-[30px] md:pt-[155px] lg:pt-[170px] xl:pt-[200px] md:pb-[50px]'>
       <div className='max-w-container mx-auto px-[10px] xl:px-0'>
-        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53] mb-[20px]'>Web Development Details</p>
+        <p className='font-pops font-bold text-[25px] xl:text-[36px] text-[#1C1E53] mb-[20px]'>Software Development Details</p>
         <div className='xl:flex xl:justify-between xl:items-center'>
           <div className='border-b-2'>
             <div className=''>
@@ -64,4 +64,4 @@ const WebDevelopment = () => {
   )
 }
 
-export default WebDevelopment
+export default SoftwareDevelopment

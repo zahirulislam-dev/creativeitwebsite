@@ -9,7 +9,7 @@ const WhatWeDo = () => {
       name: "Software Development",
       imageurl: 'https://i.ibb.co.com/vQyzpnv/software-Dev.png',
       description: 'We are developing customized software for small to large businesses, Edu...',
-      btn: '/webdevelopmentdetails',
+      btn: '/softwaredevelopmentdetails',
     },
     {
       name: "Web Design & Development",

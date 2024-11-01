@@ -1,17 +1,8 @@
-import React, { useEffect } from 'react'
-import Home from "./Components/Home/Home"
+import React from 'react'
 
-
-
-function App() {
-  useEffect(()=>{
-    window.scrollTo(0,0)
-  },[])
-
+const App = () => {
   return (
-    <div>
-      <Home/>
-    </div>
+    <div>App</div>
   )
 }
 
